@@ -1,0 +1,10 @@
+{
+  "SuccessUpdate": "The configuration has been successfully modified",
+  "ConfigurationTitle": "Admin configurations",
+  "Edit": "Edit",
+  "Add": "Add",
+  "Form": {
+    "NbToken": "Number of extra tokens",
+    "PriceToken": "Tokens price (eur.)"
+  }
+}

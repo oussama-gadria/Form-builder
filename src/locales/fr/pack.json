@@ -1,0 +1,27 @@
+{
+  "SuccessDelete": "Le pack a été supprimée avec succès",
+  "SuccessUpdate": "Le pack a été modifié avec succès",
+  "SuccessAdd": "Le pack a été ajouté avec succès",
+  "PackManagement": "Gestion des packs",
+  "AddPack": "Ajouter un pack",
+  "Number": "Numéro",
+  "Name": "Nom",
+  "Price": "Prix",
+  "NoPack": "Aucun pack",
+  "UpdatePack": "Modifier un pack",
+  "Edit": "Modifier",
+  "Add": "Ajouter",
+  "Form": {
+    "Name": "Nom du pack",
+    "Description": "Description",
+    "Price": "Prix",
+    "OptionAi": "Enable AI option",
+    "QuotaAi": "Nombre des mots autorisé (Tokens)",
+    "Period": "Duration (in days)",
+    "UnlimitedValue": "Veuillez laisser vide pour une valeur illimitée",
+    "IntegerValue": "Le nombre des jours doit être un entier",
+    "Yes": "Oui",
+    "No": "Non",
+    "contractNb": "Nombre des contrats autorisé"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "carType": {
+        "label": "Type de voiture",
+        "required": "Type de voiture est requis"
+    },
+    "data": {
+        "mileage": {
+            "invalid": "Kilometrage doit être des chiffres",
+            "tooShort":"Kilometrage too short (max. {{min}} numbers)",
+            "tooLong":"Kilometrage too long (min. {{min}} numbers)"
+        }
+    },
+    "button":{
+         "next" :"Suivant"
+    }
+}

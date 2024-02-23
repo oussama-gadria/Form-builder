@@ -1,0 +1,22 @@
+{
+  "SubscriptionExhausted": "Votre abonnement est epuisé",
+  "ChooseYourPack": "Choisir votre pack",
+  "ExpirationDate": "Date d'expiration :",
+  "RemainingContract": "Contrat restant : ",
+  "Details": "Détails : ",
+  "Buy": "Acheter",
+  "Renew": "Renouveller",
+  "errorCheckout": "Une erreur s'est produite lors de votre paiement",
+  "goToPayment": "Aller au page de paiement",
+  "successCheckout": "Votre paiement à été effectué avec succès",
+  "successCheckoutLaunch": "En guise de cadeau de fin d'année, nous sommes ravis de vous offrir 15 jours d'abonnement gratuit. C'est notre manière de vous remercier pour votre confiance. Profitez pleinement de tous nos services, et n'hésitez pas à nous faire part de vos retours.",
+  "goToDashboard": "Aller au dashboard",
+  "successTokenCheckout": "Votre achat de Tokens à été effectué avec succès",
+  "YourInvoice": "Votre Facturation",
+  "Pay": "Payer",
+  "CardNumber": "Numéro de la carte",
+  "Checkout": "Page de paiement",
+  "Redirection": "Vous allez être redirigé vers le site de paiement Stripe",
+  "RedirectionConfirmed": "Redirection ...",
+  "noValidSubscription": "Aucun abonnement"
+}

@@ -1,0 +1,58 @@
+{
+  "SuccessDelete": "The template has been successfully deleted",
+  "SuccessUpdate": "The template has been successfully modified",
+  "SuccessAdd": "The template was successfully added",
+  "TemplateManagement": "Templates management",
+  "AddTemplate": "Add template",
+  "EditTemplate": "Edit Template",
+  "Number": "Number",
+  "Name": "Name",
+  "Language": "Language",
+  "NoTemplate": "There are no templates available.",
+  "UpdateTemplate": "Edit template",
+  "Edit": "Edit",
+  "Add": "Add",
+  "Form": {
+    "Name": "Template name",
+    "Description": "Description",
+    "ChooseLanguage": "Choose language",
+    "ChooseContext": "Choose context",
+    "GenerateWithAi": "Generate your template with AI",
+    "UseFields": "Using these fields",
+    "LabelSign1": "Label for the first party's signature",
+    "LabelSign2": "Label for the second party's signature",
+    "PlaceHolderSign1": "e.g., Employee",
+    "PlaceHolderSign2": "e.g., Employer"
+  },
+  "preview": {
+    "FormPreview": "Change to Form preview",
+    "PdfPreview": "Change to PDF preview",
+    "PdfPreviewToGenerate": "The PDF preview that will be generated",
+    "TemplatePreview": "The Form preview that will be completed by the second party"
+  },
+  "Modal": {
+    "ConfirmBuy": "Do you confirm your intention to purchase Tokens?",
+    "WantToBuy": "Do you want to buy a credit of",
+    "Tokens": "Tokens for",
+    "Confirm": "Confirm",
+    "Cancel": "Cancel",
+    "Delete": "Delete",
+    "ConfirmDelete": "Confirm deletion ?"
+  },
+  "SignatuerEmployer": "Employer's signature",
+  "SignatureEmployee": "Employee's signature",
+  "DeleteLangContent": "Delete content for this language",
+  "TempalteContent": "Template content",
+  "AddCustomizableInput": "Add fields with the format @[field]@, where 'field' is a customizable variable.",
+  "PassToPremium": "Upgrade to premium to use AI",
+  "TakeFewMoments": "It may take a few moments.",
+  "ExhaustedWords": "Number of words (Tokens) exhausted",
+  "Generate": "Generate",
+  "contentToGenerate": {
+    "defaultValue": "Generate a 3-line work contract",
+    "label": "Write your request",
+    "placeholder": "Try: Generate a work contract"
+  },
+  "useTemplate": "Use template",
+  "errorContent": "Some Fields {{fields}} are not yet added in the selected language, which are present in the primary language, or vice versa"
+}

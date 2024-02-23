@@ -1,0 +1,332 @@
+{
+  "car": {
+    "title": "Création véhicule",
+    "update":"Modification véhicule",
+    "registration": {
+      "label": "Immatriculation",
+      "required": "Immatriculation est obligatoire",
+      "invalidFormat":"Format d'immatriculation invalide: 0000-AA-0000"
+    },
+    "brand": {
+      "label": "Marque",
+      "required": "Marque est obligatoire"
+    },
+    "model":{
+      "label": "Modele",
+      "required": "Modele est obligatoire"
+    },
+    "box": "Boîte",
+    "mileage": {
+      "label": "kilométrage",
+      "required": "kilométrage est obligatoire"
+    },
+    "cylinder": "Cylinder",
+    "picture": "Image",
+    "energy": "Energie",
+    "no data":"Aucune donnée disponible",
+    "successUpdate":"Véhicule mis à jour",
+    "SuccessDelete": "Véhicule supprimé",
+    "SuccessAdd":"Véhicule ajouté",
+    "Main vehicle": "Véhicule principal"
+  },
+  "client": { 
+    "Type": "Type: ",
+    "update":"Modification client",
+    "title": "Création client",
+    "company": { 
+      "label":"Nom de Societé",
+      "required":"Nom de societé est obligatoire"
+    },
+    "firstname": "Nom: ",
+    "lastname": "Prénom: ",
+    "email": "Email: ",
+    "phoneNumber": {
+      "label":"Numero télephone: ",
+      "required":"Numero télephone est obligatoire",
+      "isNumber":"Numero télephone doit être des chiffres"
+    },
+    "adresse": { 
+      "label":"Adresse: ",
+      "required":"Adresse est obligatoire"
+    },
+    "city":{ 
+      "label":"Ville: ",
+      "required":"Ville est obligatoire"
+    },
+    "PostalCode":{
+      "label": "Code postal: ",
+      "required":"Code postal est obligatoire"
+    },
+    "SectorOfActivity": "Secteur d'activité",
+    "HeadquartersAddress": "Adresse du siège social",
+    "RegistrationNumber": "Numéro d'enregistrement",
+    "successUpdate":"Client mis à jour",
+    "SuccessDelete": "Client supprimé",
+    "sort":"Trier par",
+    "copyToClipBoard":"Texte copié"
+  },
+  "button": {
+    "Save": "Enregistrer",
+    "update":"Modifier",
+    "delete": "Supprimer"
+  },
+  "SuccessAdd": "Compte créer avec success !",
+  "type": {
+    "label": "Type",
+    "Men": "Homme",
+    "Women": "Femme",
+    "Company": "Societé",
+    "required":"Le type est obligatoire"
+  },
+  "nav": {
+    "profile": "Profil",
+    "password": "Mot de passe",
+    "myAccount": "Mon compte"
+  },
+  "profile": {
+    "title": "Profil",
+    "feedbacks": {
+      "updateSuccess": {
+        "title": "Mis à jour avec succès"
+      },
+      "updateError": {
+        "title": "Échec de la mise à jour"
+      }
+    },
+    "actions": {
+      "save": "Sauvegarder"
+    }
+  },
+  "password": {
+    "title": "Mot de passe",
+    "feedbacks": {
+      "updateSuccess": {
+        "title": "Votre mot de passe a été mis à jour avec succès"
+      },
+      "updateError": {
+        "title": "Échec de la mise à jour du mot de passe"
+      }
+    },
+    "actions": {
+      "changePassword": "Changer le mot de passe"
+    }
+  },
+  "resetPassword": {
+    "title": "Réinitialiser le mot de passe",
+    "actions": {
+      "cancel": "Retour",
+      "goToLogin": "Aller à la connexion",
+      "reset": "Réinitialiser",
+      "send": "Envoyer l'email"
+    },
+    "feedbacks": {
+      "initSuccess": {
+        "title": "Email de réinitialisation envoyé avec succès !",
+        "description": "Si un compte existe avec l'adresse <strong>{{email}}</strong> vous allez recevoir un email pour mettre à jour votre mot de passe."
+      },
+      "initError": {
+        "title": "Échec de la réinitialisation du mot de passe"
+      },
+      "resetSuccess": {
+        "title": "Votre mot de passe a été réinitialisé",
+        "description": "Vous pouvez maintenant vous connecter"
+      },
+      "resetError": {
+        "title": "Échec de la réinitalisation du mot de passe"
+      }
+    }
+  },
+  "activate": {
+    "feedbacks": {
+      "activationLoading": {
+        "title": "Activation de compte..."
+      },
+      "activationSuccess": {
+        "title": "Activation du compte avec succès"
+      },
+      "activationError": {
+        "title": "Échec de l'activation du compte"
+      }
+    }
+  },
+  "data": {
+    "addNewUser": "Ajouter un nouveau utilisateur",
+    "accessAdmin": "Accès admin",
+    "accessClient": "Accès client",
+    "gender": {
+      "options": {
+        "women": "Femme",
+        "men": "Homme",
+        "company": "Société"
+      },
+      "label": "Genre"
+    },
+    "adminEmail": {
+      "label": "Email admin",
+      "required": "Email admin obligatoire"
+    },
+    "clientEmail": {
+      "label": "Email client",
+      "required": "Email client obligatoire"
+    },
+    "adminPassword": {
+      "label": "Mot de passe admin",
+      "required": "Mot de passe admin obligatoire",
+      "tooShort": "Password too short (min. {{min}} characters)",
+      "tooLong": "Password too long (max. {{max}} characters)"
+    },
+    "clientPassword": {
+      "label": "Mot de passe client",
+      "required": "Mot de passe client obligatoire",
+      "tooShort": "Password too short (min. {{min}} characters)",
+      "tooLong": "Password too long (max. {{max}} characters)"
+    },
+    "city": {
+      "label": "Ville"
+    },
+    "adresse": {
+      "label": "Adresse"
+    },
+    "phoneNumber": {
+      "label": "Numéro de téléphone"
+    },
+    "firstname": {
+      "label": "Nom",
+      "required": "Le nom est requis"
+    },
+    "lastname": {
+      "label": "Prénom",
+      "required": "Le prénom est requis"
+    },
+    "adresseFacturation": {
+      "label": "Adresse de facturation"
+    },
+    "email": {
+      "label": "Email",
+      "required": "Email est requis",
+      "invalid": "L'email est invalide",
+      "resetHelper": "Entrez l'adresse email que vous avez utilisée pour vous inscrire",
+      "alreadyUsed": "Adresse email déjà utilisée",
+      "tooLong": "L'email est trop long (max. {max} caractères)",
+      "tooShort": "L'email est trop court (min. {min} caractères)"
+    },
+    "language": {
+      "label": "Langue"
+    },
+    "denomination": {
+      "label": "Dénomination entreprise",
+      "required": "Champ obligatoire"
+    },
+    "password": {
+      "label": "Mot de passe",
+      "tooShort": "Le mot de passe est trop court",
+      "tooLong": "Le mot de passe est trop long ({max} caractères max.)",
+      "required": "Mot de passe requis"
+    },
+    "currentPassword": {
+      "incorrect": "Mot de passe actuel non valide",
+      "label": "Mot de passe actuel",
+      "required": "Le mot de passe actuel est requis"
+    },
+    "newPassword": {
+      "label": "Nouveau mot de passe",
+      "required": "Le nouveau mot de passe est requis"
+    },
+    "confirmNewPassword": {
+      "label": "Confirmer le nouveau mot de passe",
+      "required": "La confirmation du mot de passe est requise",
+      "notEqual": "Les nouveaux mots de passe doivent être égaux"
+    },
+    "login": {
+      "alreadyUsed": "Nom d'utilisateur déjà utilisé",
+      "invalid": "Le nom d'utilisateur n'est pas valide, n'utilisez pas de caractères spéciaux",
+      "label": "Nom d'utilisateur",
+      "required": "Le nom d'utilisateur est requis",
+      "tooLong": "Le nom d'utilisateur est trop long (max. {max} caractères)",
+      "tooShort": "Le nom d'utilisateur est trop court (min. {{min}} caractères)"
+    }
+  },
+  "register": {
+    "actions": {
+      "alreadyHaveAnAccount": "Vous avez déjà un compte ?",
+      "create": "Créer un compte",
+      "goToLogin": "Aller à la connexion",
+      "login": "Connexion"
+    },
+    "feedbacks": {
+      "registrationError": {
+        "title": "Échec de l'enregistrement"
+      },
+      "registrationSuccess": {
+        "title": "Compte créé avec succès !",
+        "description": "Veuillez vérifier votre boîte de réception email <strong>{{email}}</strong> pour activer votre compte."
+      }
+    },
+    "title": "S'inscrire"
+  },
+  "carte":{
+    "select-client":"sélectionnez un client",
+    "registration":"Sélectionnez immatriculation",
+    "details-heading": "Détails",
+    "mileage":"Kilométrage",
+    "fault":"le véhicule est-il arrivé sur dépanneuse ?",
+    "fault-response":{
+      "0": "Non",
+      "1": "Oui"
+    },
+    "date": "Sélectionnez une Date ...",
+    "confirm-date":"Confirmer",
+    "image":"Votre contenu",
+    "addImage":"Ajouter une image",
+    "note":"Note",
+    "audio":"Audio",
+    "note-placeholder":"Pensez à faire court et concis",
+    "submit-button": "Enregistrer",
+    "second-button": "Carte entretien",
+    "recent-client": "Voir récent",
+    "close-recent": "Fermer récent",
+    "title":"Création Carte"
+},
+"folder":{
+  "heading":"Plus d'infors",
+  "contrat":"Contrat n°",
+  "card-button": "Mettre à jour Carte",
+  "hashtag-popup-title":"Définissez un Hashtag",
+  "hashtag-popup-close":"fermer",
+  "hashtag-1":"#Urgence",
+  "hashtag-2":"#Reprise",
+  "service":"Diagnostic d'entrée",
+  "SuccessUpdate":"Dossier mis à jour avec succès ",
+  "ContractCreationTitle": "Création Contrat"
+},
+"clientTabs":{
+  "identity":"Identité",
+  "Vehicles":"Véhicules",
+  "contracts":"Contrats"
+},
+"clientButtons":{
+  "editButton":"Modifier Client",
+  "newContractButton":"Nouveau Contrat",
+  "addVehicle":"Ajouter un véhicule",
+  "removeClient":"Supprimer contact"
+},
+"tabscontent":{
+  "vehiclesTotal":"Total de vos véhicules",
+  "contractsTotal":"Total de vos contrats"
+},
+"modalNoData":{
+  "noDataTitle":"Aucune donnée disponible",
+  "noDataBody":"Le client sélectionné n'a pas de données de dossier.",
+  "closeButton":"Fermer"
+},
+"deleteClientModal":{
+  "title":"Confirmation de suppression",
+  "body":"Etes vous sûr(e) de vouloir supprimer ?",
+  "yesButton":"Confirmer",
+  "noButton":"Annuler"
+},
+"modalSuccessAddFolder":{
+  "modalTitle": "Merci!",
+  "modalContent": "Vos informations ont été soumises avec succès."
+}
+}

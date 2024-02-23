@@ -1,0 +1,27 @@
+{
+  "languages": {
+    "en": "English",
+    "FR": "French",
+    "IT": "Italien",
+    "BG": "Bulgare",
+    "DE": "Allemand",
+    "ES": "Espagnol"
+  },
+  "actions": {
+    "activate": "Activate",
+    "cancel": "Cancel",
+    "deactivate": "Deactivate",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Validar",
+    "doSignature": "Rehacer la firma"
+  },
+  "use": {
+    "commissionArgrement": "ACUERDO DE COMISIÓN",
+    "merchandiseTransfer": "CONTRATO DE TRANSFERENCIA DE MERCANCIA",
+    "language": "language",
+    "required": "Este campo es obligatorio",
+    "goBack": "Regresa",
+    "toastError": "¡No autorizado! El token de la página ha caducado"
+  }
+}

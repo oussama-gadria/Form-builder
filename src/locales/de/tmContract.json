@@ -1,0 +1,50 @@
+{
+  "transferContract": "WARENÜBERGABEVERTRAG",
+  "Number": "NUMMER",
+  "Date": "DATUM DER VERTRAGSUNTERZEICHNUNG:",
+  "ownerCompany": {
+    "title": "I. EIGENTÜMERUNTERNEHMEN, DAS DEN ERWERB DER IMMOBILIE/N FINANZIERT HAT",
+    "company": "Azur Aliance JSC registriert unter der Nummer 206565325, mit Sitz in der Stadt Burgas, Bulgarien, Umsatzsteueridentifikationsnummer BG206565325",
+    "RepresentedBy": "Vertreten durch:",
+    "Telephone": "Handynummer:",
+    "Email": "E-Mail:",
+    "Name": "Örtliche Vertreterin von Azur Aliance",
+    "ownerCompany": "UNTERNEHMEN, DAS EIGENTÜMER DER IMMOBILIE(N) IST"
+  },
+  "agentRepresentative": {
+    "title": "II.MANDATAIRE",
+    "Name": "Vorname :",
+    "LastName": "Name :",
+    "Adresse": "Adresse :",
+    "Signature": "KÄUFER :"
+  },
+  "product": {
+    "title": "III. BESCHREIBUNG DES PRODUKTS, GEGENSTAND DER ÜBERMITTLUNG",
+    "Designation": "1. Bezeichnung :",
+    "Manufacturer": "2. Hersteller :"
+  },
+  "Payment": {
+    "title": "IV. BEZAHLTER PREIS UND PROVISIONSREGELN",
+    "productPriceInTheStore": "1.Der Preis des im Geschäft bezahlten Produkts, das oben unter Punkt III beschrieben wurde, beträgt",
+    "commission": "2. Die an den Käufer für den Auftrag gezahlte Provision beträgt 2",
+    "priceDescribed": " Der beschriebene Preis beinhaltet die Lieferung und den Empfang der Ware, ohne zusätzliche Kosten.    "
+  },
+  "delivery": {
+    "title": "V. LIEFERUNG, INSPEKTION, REKLAMATIONEN",
+    "clause1": "1.Die Ware muss an der folgenden Adresse von Azur-Aliance JSC abgegeben oder versandt werden:",
+    "clause2": "2. Bei einem Fernabsatzempfang des Gutes muss der Käufer das Gut sofort nach Erhalt untersuchen und den Verkäufer informieren, wenn es Probleme gibt.",
+    "clause3": "3. Bei der Annahme der Ware wird ein Annahmeprotokoll unterzeichnet."
+  },
+  "disputes": {
+    "title": "VI. RECHTSSTREITIGKEITEN UND HAFTUNG",
+    "clause1": "1.Dieser Vertrag, seine Erfüllung, Nichterfüllung, Gültigkeit und Beendigung unterliegen den Bestimmungen der Zivilgesetzgebung.",
+    "clause2": "2. Jeder Streit über diesen Vertrag, seine Ausführung, Nichtausführung, Gültigkeit und Beendigung wird vor Gericht ausgetragen."
+  },
+  "communication": {
+    "title": "VII. KOMMUNIKATION UND BENACHRICHTIGUNGEN ",
+    "clause": "Jede E-Mail, die an die in diesem Vertrag angegebene E-Mail-Adresse gesendet wird, gilt als ordnungsgemäß gesendete und empfangene Benachrichtigung, unabhängig davon, ob der Empfänger sie geöffnet hat oder nicht."
+  },
+  "Signature": "KÄUFER",
+  "BuyerRepresentative": "Name:",
+  "Company": "UNTERNEHMEN, DAS EIGENTÜMER DER IMMOBILIE(N) IST"
+}

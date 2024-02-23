@@ -1,0 +1,85 @@
+{
+  "languages": {
+    "en": "English",
+    "FR": "French",
+    "IT": "Italien",
+    "BG": "Bulgare",
+    "DE": "Allemand",
+    "ES": "Espagnol"
+  },
+  "actions": {
+    "activate": "Activate",
+    "cancel": "Cancel",
+    "deactivate": "Deactivate",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Save",
+    "send": "Send",
+    "doSignature": "Redo the signature"
+  },
+  "use": {
+    "commissionArgrement": "Commission argrement",
+    "merchandiseTransfer": "Merchandise transfer contract",
+    "language": "language",
+    "required": "this field is required",
+    "goBack": "Go back",
+    "toastError": "Unauthorized! Page token has been expired",
+    "errorOccurred": "An error has occurred",
+    "clickToDownload": "Click to download"
+  },
+  "categories":{ 
+    "updateCategory":"Update a category",
+    "SuccessDelete":"Category deleted successfully",
+    "SuccessUpdate":"Category updated successfully",
+    "noCategories":"No categories",
+    "categoryManagment":"Category managment",
+     "addCategory":"Add category",
+     "createCategory":"Add a category",
+     "categoryName":"Category name",
+     "categoryPlaceHolder":"Type the name of the category",
+     "save":"Save",
+     "cancel":"Cancel",
+     "SuccessAdd":"Category added successfully",
+     "SuccessDuplicate":"Category duplicated successfully"
+  },
+  "subCategories":{ 
+    "updateSubCategory":"Update a sub-category",
+    "SuccessDelete":"Sub-category deleted successfully",
+    "SuccessUpdate":"Sub-category updated successfully",
+    "categoryManagment":"Sub-category Management",
+     "addSubCategory":"Add sub-category",
+     "createSubCategory":"Add a sub-category",
+     "SubCategoryName":"Sub-category Name",
+     "SubCategoryPlaceHolder":"Type the name of the sub-category",
+     "save":"Save",
+     "cancel":"Cancel",
+     "SuccessAdd":"Sub-category successfully added",
+     "NoSubCategory":"No sub-categories",
+     "SuccessDuplicate":"Sub_category duplicated successfully",
+     "Display":"Display",
+     "Hide":"Hide"
+  },
+  "Inputs":{ 
+    "Actions":"Actions",
+    "Key":"Key",
+    "Value":"Value",
+    "Save":"Save",
+    "Cancel":"Cancel",
+    "Title":"Personalize your own form",
+    "SuccessAdd":"Input added successfully",
+    "Name":"Name", 
+    "PlaceHolder":"Type the new name for this field",
+    "Update":"Update Field",
+    "Label":"Label",
+    "required":"This field is required",
+    "SuccessUpdated":"Field updated successfully",
+    "SuccessDeleted":"Field deleted successfully"
+  },
+  "folder":{
+    "SuccessAdd":"Folder added successfully"
+  },
+  "status":{
+    "Success":"Status added successfully",
+    "error":"Error adding Status"
+  }
+}

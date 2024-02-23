@@ -1,0 +1,20 @@
+{
+  "SuccessDelete": "Le cadre a été supprimée avec succès",
+  "SuccessUpdate": "Le cadre a été modifié avec succès",
+  "SuccessAdd": "Le cadre a été ajouté avec succès",
+  "ContextManagement": "Gestion des cadres",
+  "AddContext": "Ajouter un cadre",
+  "Number": "Numéro",
+  "Name": "Nom",
+  "Context": "Cadre",
+  "NoContext": "Aucun cadre",
+  "UpdateContext": "Modifier un cadre",
+  "Edit": "Modifier",
+  "Add": "Ajouter",
+  "Form": {
+    "Name": "Nom du cadre",
+    "Context": "Cadre",
+    "Field": "Champ",
+    "Value": "Valeur"
+  }
+}

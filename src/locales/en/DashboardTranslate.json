@@ -1,0 +1,35 @@
+{
+    "clients": {
+        "title": "Total of Clients",
+        "folderOpened":"Opened Folders",
+        "folderClosed":"Closed Folders",
+        "contract":"Totals of Contracts"
+      }, 
+    "stats":{
+      "arrivals":"Arrivals on tow truck",
+      "simpleArrivals":"Simple Arrivals"
+    },
+    "faults":{
+      "foundFaults":"found Faults",
+      "insolubleFailures":"insoluble failures"
+  },
+  "distribution":{
+    "cardTitle":"Distribution of your customers",
+    "company":"Company",
+    "particular":"particular",
+    "other":"Other"
+  },
+  "contracts":{
+    "invalidEstimate":"invalid Estimate",
+    "postponedContracts":"postponed Contracts"
+  },
+  "tabs":{
+    "user":"User",
+    "email":"Email",
+    "role":"Role",
+    "status":"Status"
+  },
+  "footer":{
+    "copyRight":"All rights reserved"
+  }
+}

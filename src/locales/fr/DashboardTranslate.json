@@ -1,0 +1,35 @@
+{
+    "clients": {
+         "title":"Total des Clients",
+         "folderOpened":"Dossiers Ouverts",
+         "folderClosed":"Dossiers Fermées",
+         "contract":"Totals des contrats"
+    },
+    "stats":{
+        "arrivals":"Arrivées en dépanneuse",
+        "simpleArrivals":"Arrivées simples"
+      },
+    "faults":{
+        "foundFaults":"échecs insolubles",
+        "insolubleFailures":"Défauts trouvés"
+    },
+    "distribution":{
+        "cardTitle":"Répartition des clients",
+        "company":"Société",
+        "particular":"particulier",
+        "other":"Autre"
+      },
+      "contracts":{
+        "invalidEstimate":"devis non valide",
+        "postponedContracts":"contrats reportés"
+      },
+      "tabs":{
+        "user":"Utilisateur",
+        "email":"Email",
+        "role":"Rôle",
+        "status":"Statut"
+      },
+      "footer":{
+        "copyRight":"Tous droits réservés"
+      }
+}

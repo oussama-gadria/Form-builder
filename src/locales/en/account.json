@@ -1,0 +1,333 @@
+{
+  "car": {
+    "title": "Car creation",
+    "update":"Update vehicle",
+    "registration": {
+      "label": "Registration",
+      "required": "Registration is required !",
+      "invalidFormat":"Invalid registration format: 0000-AA-0000"
+    },
+    "brand": {
+      "label":"Brand",
+      "required":"Brand is required"
+    },
+    "model": {
+      "label":"Model",
+      "required":"Model is required"
+    },
+    "box": "Box",
+    "mileage": {
+      "label": "Mileage",
+      "required": "Mileage is required !"
+    },
+    "cylinder": "Cylinder",
+    "picture": "Picture", 
+    "energy": "Energy",
+    "no data":"No data available",
+    "successUpdate":"Vehicle updated successfully",
+    "SuccessDelete": "Vehicle deleted",
+    "SuccessAdd":"Vehicle added",
+    "Main vehicle": "Main vehicle"
+  },
+  "client": {
+    "Type":"Type: ",
+    "update": "Update Client",
+    "title": "Add new Client",
+    "company": { 
+      "label":"Company Name",
+      "required":"Company Name is required"
+    },
+    "firstname":"Firstname: ",
+    "lastname":"Lastname: ",
+    "email":"Email: ",
+    "phoneNumber": {
+      "label": "Phone Number: ",
+      "required":"Phone Number is required",
+      "isNumber":"Phone Number should be a number"
+    },
+    "adresse": {
+      "label": "Adress: ",
+      "required":"Adress is required"
+    },
+    "city": {
+      "label": "City: ",
+      "required":"City is required"
+    },
+    "PostalCode":{
+      "label": "Postal code: ",
+      "required":"Postal code is required"
+    },
+    "SectorOfActivity":"Sector of activity",
+    "HeadquartersAddress":"Headquarters address",
+    "RegistrationNumber":"Registration number",
+    "successUpdate":"Client updated successfully",
+    "SuccessDelete": "Client deleted",
+    "sort":"Sort by",
+    "copyToClipBoard":"Copied to clipboard"
+  },
+  "button":{ 
+    "Save":"Save",
+    "update": "Update",
+    "delete": "Delete"
+  },
+  "SuccessAdd":"Account has been created successfully !",
+  "type":{ 
+    "label": "Type",
+    "Men":"Men",
+    "Women":"Women", 
+    "Company":"Company",
+    "required":"Type is required"
+   },
+  "nav": {
+    "profile": "Profile",
+    "password": "Password",
+    "myAccount": "My Account"
+  },
+  "profile": {
+    "title": "Profile",
+    "feedbacks": {
+      "updateSuccess": {
+        "title": "Updated with success"
+      },
+      "updateError": {
+        "title": "Update failed"
+      }
+    },
+    "actions": {
+      "save": "Save"
+    }
+  },
+  "password": {
+    "title": "Password",
+    "feedbacks": {
+      "updateSuccess": {
+        "title": "Your password has been updated with success"
+      },
+      "updateError": {
+        "title": "Password update failed"
+      }
+    },
+    "actions": {
+      "changePassword": "Change Password"
+    }
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "actions": {
+      "cancel": "Back",
+      "send": "Send Email",
+      "goToLogin": "Go to Login",
+      "reset": "Reset Password"
+    },
+    "feedbacks": {
+      "initSuccess": {
+        "title": "Reset password email sent with success!",
+        "description": "If an account exist with email <strong>{{email}}</strong> you should have received an email."
+      },
+      "initError": {
+        "title": "Reset password failed"
+      },
+      "resetSuccess": {
+        "title": "Your password has been reset",
+        "description": "You can now login"
+      },
+      "resetError": {
+        "title": "Reset password failed"
+      }
+    }
+  },
+  "activate": {
+    "feedbacks": {
+      "activationLoading": {
+        "title": "Account activation..."
+      },
+      "activationSuccess": {
+        "title": "Account activation successfully"
+      },
+      "activationError": {
+        "title": "Failed to activate account"
+      }
+    }
+  },
+  "data": {
+    "adresse": {
+      "label": "Adresse"
+    },
+    "city": {
+      "label": "Ville"
+    },
+    "phoneNumber": {
+      "label": "Numéro de téléphone"
+    },
+    "addNewUser":"Add new user",
+    "accessAdmin":"Access admin",
+    "accessClient":"Access client",
+    "gender":{ 
+      "options":{
+        "women":"Women",
+        "men":"Men",
+        "company":"Company"
+      },
+      "label":"Gender",
+      "required":"Gender is required"
+    },
+    "adminEmail": {
+      "label": "Admin email",
+      "required": "Admin email is required"
+    },
+    "clientEmail": {
+      "label": "Client email",
+      "required": "Client email is required"
+    },
+    "adminPassword": {
+      "label": "Admin password",
+      "required": "Admin password is required",
+      "tooShort": "Password too short (min. {{min}} characters)",
+      "tooLong": "Password too long (max. {{max}} characters)"
+    },
+    "clientPassword": {
+      "label": "Client password",
+      "required": "Client password is required",
+      "tooShort": "Password too short (min. {{min}} characters)",
+      "tooLong": "Password too long (max. {{max}} characters)"
+    },
+    "firstname": {
+      "label": "First Name",
+      "required": "First name is required"
+    },
+    "lastname": {
+      "label": "Last Name",
+      "required": "Last name is required"
+    },
+    "adresseFacturation": {
+      "label": "Billing address"
+    },
+    "email": {
+      "label": "Email",
+      "required": "Email is required",
+      "invalid": "Email is invalid",
+      "resetHelper": "Enter the email address you used to register",
+      "alreadyUsed": "Email already used",
+      "tooShort": "Email is too short (min. {{min}} characters)",
+      "tooLong": "Email is too long (max. {{max}} characters)"
+    },
+    "language": {
+      "label": "Language"
+    },
+    "denomination": {
+      "label": "Company Name",
+      "required": "Company Name is required"
+    },
+    "password": {
+      "label": "Password",
+      "tooShort": "Password too short (min. {{min}} characters)",
+      "tooLong": "Password too long (max. {{max}} characters)",
+      "required": "Password is required"
+    },
+    "currentPassword": {
+      "label": "Current Password",
+      "incorrect": "Invalid current password",
+      "required": "Current Password is required"
+    },
+    "newPassword": {
+      "label": "New Password",
+      "required": "New Password is required"
+    },
+    "confirmNewPassword": {
+      "label": "Confirm New Password",
+      "required": "New Password confirmation is required",
+      "notEqual": "New passwords must be equal"
+    },
+    "login": {
+      "alreadyUsed": "Username already used",
+      "label": "Username",
+      "required": "Username is required",
+      "tooShort": "Username is too short (min. {{min}} characters)",
+      "tooLong": "Username is too long (max. {{max}} characters)",
+      "invalid": "Username is invalid, don't use special characters"
+    }
+  },
+  "register": {
+    "feedbacks": {
+      "registrationError": {
+        "title": "Registration failed"
+      },
+      "registrationSuccess": {
+        "title": "Account created with success!",
+        "description": "Please check your email <strong>{{email}}</strong> inbox to activate your account."
+      }
+    },
+    "actions": {
+      "goToLogin": "Go to Login",
+      "create": "Create Account",
+      "alreadyHaveAnAccount": "Already have an account?",
+      "login": "Login"
+    },
+    "title": "Register"
+  },
+  "carte":{
+    "select-client":"Select client",
+    "registration": "Select registration",
+    "details-heading": "Details",
+    "mileage": "Mileage",
+    "fault":"Has the vehicle arrived on a tow truck?",
+    "fault-response":{
+        "0": "No",
+        "1": "Yes"
+    },
+    "date": "Select a Date ...",
+    "confirm-date":"Submit",
+    "image":"Your content",
+    "addImage":"Add Image",
+    "note":"Note",
+    "audio":"Audio",
+    "note-placeholder": "Keep it short and concise",
+    "submit-button": "Submit",
+    "second-button": "Maintenance card",
+    "recent-client": "See recent",
+    "close-recent": "Close recent",
+    "title":"Card creation"
+},
+"folder":{
+  "heading":"More infos",
+  "contrat":"Contract no.",
+  "card-button":"Update Card",
+  "hashtag-popup-title":"Set a Hashtag",
+  "hashtag-popup-close":"close",
+  "hashtag-1":"#Emergency",
+  "hashtag-2":"#Resumption",
+  "service":"Input diagnostics",
+  "SuccessUpdate":"Folder updated successfuly",
+  "ContractCreationTitle": "Contract Creation"
+},
+"clientTabs":{
+  "identity":"Identity",
+  "Vehicles":"Vehicles",
+  "contracts":"Contracts"
+},
+"clientButtons":{
+  "editButton":"Update Client",
+  "newContractButton":"Add Contract",
+  "addVehicle":"Add vehicle",
+  "removeClient":"Delete contact"
+},
+"tabscontent":{
+  "vehiclesTotal":"Total of your vehicles",
+  "contractsTotal":"Total of your contracts"
+},
+"modalNoData":{
+  "noDataTitle":"No Data Available",
+  "noDataBody":"The selected client does not have any folder data.",
+  "closeButton":"Close"
+},
+"deleteClientModal":{
+  "title":"Confirm deletion",
+  "body":"Are you sure you want to delete?",
+  "yesButton":"Confirm",
+  "noButton":"Cancel"
+},
+"modalSuccessAddFolder":{
+  "modalTitle": "Thank You!",
+  "modalContent": "Your information has been successfully submitted."
+}
+}

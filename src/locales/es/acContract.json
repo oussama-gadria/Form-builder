@@ -1,0 +1,85 @@
+{
+  "commissionArgrement": "ACUERDO DE COMISIÓN",
+  "GeneralContractOfOrder": "Acuerdo General de Compraventa",
+  "Number": "Número",
+  "Date": "Fecha",
+  "AzurAlianceJsc": "Azur Aliance Jsc,",
+  "refferedToAzurAliance": "en lo sucesivo denominada la Empresa, con número de IVA BG206565325, con domicilio social en la dirección de la administración, situada en la calle Mara Gidik 19, 2.ª planta, 8000 Burgas, Bulgaria.",
+  "referredToCompany": {
+    "title": "En lo sucesivo, 'la Sociedad' o 'la Compañía'; y",
+    "Name": "Apellido / Nombre",
+    "IdPassport": "DNI - Pasaporte ",
+    "Nationality": "Nacionalidad",
+    "Adresse": "Dirección",
+    "ZipCode": "Código postal ",
+    "City": "Ciudad",
+    "Telephone": "Número de teléfono",
+    "Email": "Correo electrónico"
+  },
+  "refferedToBuyer": {
+    "title": "En lo sucesivo denominado 'Comprador / Representante';",
+    "clause1": "El presente contrato se celebra sobre la base del artículo 127 de la Ley del IVA búlgara y del artículo 14, p.2 de la Directiva del IVA de la UE 2006/115.",
+    "clause2": "Ambas partes reconocen que tienen capacidad legal para celebrar el presente contrato, y ambas partes ejecutarán el presente pedido y el contrato de compra y entrega de conformidad con la legislación del estado miembro de la Unión Europea: Bulgaria, de acuerdo con los términos y condiciones que se establecen a continuación. Ambas partes declaran, confirman y aceptan que el presente contrato es un contrato de servicios y no constituye en modo alguno un contrato de trabajo, y que no se presume tal relación jurídica. El Comprador/Representante tiene la posibilidad, pero no la obligación, de celebrar un contrato voluntariamente y ser un contratista independiente en forma de servicios independientes."
+  },
+  "GeneralConditions": {
+    "title": "I. Condiciones generales",
+    "GeneralConditions": {
+      "title": "1. Condiciones generales",
+      "clause1": "El objeto del contrato es especificar que la empresa pertenece al sector del lujo y puede adquirir un producto a través del Comprador/Representante.",
+      "clause2": "El encargo de servicio del Comprador consiste en la compra y entrega del producto o productos a la empresa. Se considera realizado si se completa correctamente en su totalidad, de forma que el producto se reciba en perfectas condiciones.",
+      "clause3": "Las comunicaciones de la Empresa serán por correo electrónico, WhatsApp y teléfono, según lo previsto en este contrato, compartiendo toda la información relativa al encargo.",
+      "clause4": "A los efectos del presente contrato, se conservarán y pondrán a disposición de las partes implicadas en este acuerdo la(s) cesión(es), las facturas de compra y la(s) nota(s) de transferencia del (de los) artículo(s) que se intercambiará(n) entre ambas partes.",
+      "clause5": "Si el servicio/pedido no se realiza correctamente según las instrucciones dadas por la Empresa, ésta no abonará el servicio. Podrá exigirse al Comprador que reembolse a la Empresa la pérdida o los daños sufridos por el/los artículo(s) adquirido(s).",
+      "clause6": "En caso de modificación de las condiciones, la Empresa informará de ello al Comprador/Representante. El Comprador/Representante tendrá derecho a rescindir el contrato en un plazo de 15 días a partir de la fecha de recepción de dicha notificación. Si el Comprador/Representante no procede a la rescisión en el plazo de 15 días, se considerará que ha aceptado las disposiciones modificadas y se producirá la renovación automática."
+    },
+    "PurchasePriceServiceFeeOrder": {
+      "title": "2. Precio de compra / Gastos de servicio / Pedido",
+      "clause1": "Las partes acuerdan una comisión por el proceso de compra.",
+      "clause2": "El importe de la comisión de servicio se especificará para cada compra, venta y pedido a través de los canales de comunicación habituales ya utilizados entre las partes.",
+      "clause3": "Las comisiones de servicio dependen del pedido del cliente. Variarán entre 30 y 600 euros (véase el cuadro de comisiones en el anexo)."
+    },
+    "OwnershipOfPurchasedGoods": {
+      "title": "3. Propiedad de los bienes adquiridos",
+      "clause1": "Sólo la Sociedad es propietaria de los bienes adquiridos por el Contratista, aunque la factura de compra se emita a nombre del Contratista; éste nunca es propietario de los bienes y está obligado a entregarlos sin demora a su propietario, la Sociedad.",
+      "clause2": "Se trata de una condición sustancial de éste contrato."
+    },
+    "ModalitiesForTheProvisionOfServices": {
+      "title": "4. Condiciones de prestación de servicios",
+      "clause1": "El método de trabajo consiste en crear una cuenta de cliente importante/preferente/VIP para que el vendedor/tienda/marca acepte vender al Comprador /Representante los denominados productos limitados/exclusivos. "
+    }
+  },
+  "Payment": {
+    "title": "II. Pago",
+    "Payment": {
+      "title": "1. Pago",
+      "clause": "Cuando el Comprador/Representante adquiera accesorios y productos en la tienda de la Empresa, ésta facilitará al Comprador/Representante los medios de pago para adquirir el/los artículo(s) en cuestión en la cesión. Se entiende que los fondos y la tarjeta pertenecen a la Empresa y que sólo el Comprador/Representante está autorizado a utilizarlos para el encargo. "
+    },
+    "PaymentFoServicesProvided": {
+      "title": "2. Pago por servicios prestados (Servicio / Pedido)",
+      "clause1": "El pago de los gastos de servicio se efectúa una vez recibido el producto y tras comprobar que todo es correcto. El pago se realizará mediante transferencia bancaria a una cuenta bancaria facilitada por el comprador/representante.",
+      "clause2": "Número de cuenta bancaria en la que el Comprador/Representante desea recibir el pago:",
+      "bank": "BANCO",
+      "swift": "SWIFT",
+      "iban": "IBAN"
+    }
+  },
+  "TerminationAndLiability": {
+    "title": "III.Rescisión y responsabilidad",
+    "clause1": "La Empresa invertirá tiempo y esfuerzo en formación, creación de un perfil VIP, conexión con un empleado/vendedor en la(s) tienda(s), emisión de una tarjeta bancaria dedicada al Comprador/Representante. Por estos motivos, si el Comprador/Representante desea rescindir su contrato mientras la Empresa ha invertido en su perfil, deberá abonar una penalización de 150 euros para cubrir los costes de formación y/o administrativos.",
+    "clause2": "Esta disposición sólo se aplica si el Comprador/Representante se beneficia de Azur Aliance para crear su perfil VIP sin dar posteriormente a la Empresa acceso a los objetos limitados que se pueden obtener con la intención de conservarlos para su propio uso o beneficio, o por otro motivo.",
+    "clause3": "No obstante, una anulación justificada por parte del Comprador/Representante indicando la intención de rescindir el contrato, podrá presentarse a un representante de la empresa, seguida del envío de una notificación escrita por correo certificado a la dirección del domicilio social de la empresa, a saber :",
+    "note": "NOTA: La Empresa no responsabilizará al Comprador/Representante si no logra el objetivo de compra de estos artículos limitados, y no le penalizará si tras varios intentos (mínimo 2), siempre siguiendo las instrucciones del empleado, falla.",
+    "addressL1": "Calle Mara Gidik, 19, 2ª planta ",
+    "addressL2": "8000 Burgas, Burgas",
+    "addressL3": " Bulgaria"
+  },
+  "LoyaltyAndEthics": {
+    "title": "IV. Lealtad y ética",
+    "clause1": "Desde el momento de la firma del contrato y durante los dos años siguientes a su finalización/extinción, el Comprador/Representante no podrá realizar compras, pedidos similares a los resultantes de su trabajo con Azur Aliance, por el interés de las denominadas empresas competidoras.",
+    "clause2": "La empresa, como mandante, se reserva el derecho de autorizar al intermediario a realizar compras privadas de productos que puedan ser de su interés.    ",
+    "clause3": "En caso de incumplimiento de esta disposición, la Empresa tendrá derecho a reclamar como indemnización cualquier cantidad de beneficio a valor justo de mercado que pueda haber obtenido la Empresa tras la venta del/de los producto(s) adquirido(s) sin el consentimiento de la Empresa por parte del Comprador/Representante."
+  },
+  "Signature": "Firma",
+  "BuyerRepresentative": "El comprador / representante",
+  "Company": "La empresa"
+}

@@ -1,0 +1,20 @@
+{
+  "SuccessDelete": "The context has been successfully deleted",
+  "SuccessUpdate": "The context has been successfully modified",
+  "SuccessAdd": "The context was successfully added",
+  "ContextManagement": "Contexts management",
+  "AddContext": "Add context",
+  "Number": "Number",
+  "Name": "Name",
+  "Context": "Context",
+  "NoContext": "No Context is available",
+  "UpdateContext": "Edit Context",
+  "Edit": "Edit",
+  "Add": "Add",
+  "Form": {
+    "Name": "Name",
+    "Context": "Context",
+    "Field": "Field",
+    "Value": "Value"
+  }
+}

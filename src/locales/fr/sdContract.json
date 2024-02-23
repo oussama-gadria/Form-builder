@@ -1,0 +1,20 @@
+{
+  "CreationDate": "Date de création",
+  "AlphabeticalOrder": "Ordre alphabitique",
+  "SendContract": "Envoyer un document",
+  "Number": "Numéro",
+  "createdBy": "Créer par",
+  "Template": "Template",
+  "PDFdownloads": "Télécharger le PDF en",
+  "NoDocument": "Aucun document",
+  "SuccessDowload": "Le document a été télécharger avec succès",
+  "ContractList": "Liste des documents",
+  "SignatureLabel": "Signature",
+  "RepresentativeSignature": "Signature de représentant",
+  "ValidateContract": "Valider le document",
+  "SignedByAdmin": "Document signé par l'admin",
+  "SuccessSendContract": "Votre document à été envoyé avec succès",
+  "SignedByPresenter": "Document signé par le présentateur",
+  "SendInvitation": "Envoyer un document à signer par email",
+  "ContractType": "Type de document"
+}

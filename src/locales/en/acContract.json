@@ -1,0 +1,85 @@
+{
+  "commissionArgrement": "COMMISSION AGREEMENT",
+  "GeneralContractOfOrder": "General Purchase and Sale Agreemen",
+  "Number": "Number",
+  "Date": "Date",
+  "AzurAlianceJsc": "Azur Aliance Jsc,",
+  "refferedToAzurAliance": "hereinafter referred to as the Company with VAT number BG206565325, whose registered office is at the management address, located at 19 Mara Gidik Street, 2nd floor, 8000 Burgas, Bulgaria.",
+  "referredToCompany": {
+    "title": "Hereinafter referred to as 'the Company' or 'the Company'; and",
+    "Name": "Name / Firstname",
+    "IdPassport": "ID - Passport",
+    "Nationality": "Nationality",
+    "Adresse": "Adresse",
+    "ZipCode": "Zip Code",
+    "City": "City",
+    "Telephone": "Telephone",
+    "Email": "Email"
+  },
+  "refferedToBuyer": {
+    "title": "Hereinafter referred to as the 'Buyer / Representative';",
+    "clause1": "This contract is concluded on the basis of Article 127 of the Bulgarian VAT Act and Article 14, p.2 of the European VAT Directive 2006/115.",
+    "clause2": "Both parties acknowledge that they have the legal capacity to sign this contract, and both parties execute this order and the purchase and delivery contract in accordance with the law of the European Union member country: Bulgaria, in accordance with the terms and conditions set forth below. Both parties declare, confirm and accept that this contract is a service contract and does not constitute a contract of employment, and that such a legal relationship is not presumed. The Buyer/Representative has the option, but not the obligation, to enter into a contract voluntarily and to be an independent contractor in the form of independent services."
+  },
+  "GeneralConditions": {
+    "title": "I. General Conditions",
+    "GeneralConditions": {
+      "title": "1. Terms and Conditions",
+      "clause1": "The purpose of the contract is to specify that the company works in the luxury sector and can acquire a product through the Buyer / Representative.",
+      "clause2": "The Buyer's service assignment consists of the purchase and delivery of the product(s) to the company. It is considered performed if it is correctly completed in its entirety, so that the product is received in perfect condition.",
+      "clause3": "The Company's communications will be carried out by e- mail, WhatsApp and telephone, provided for in this contract, from which all information regarding the assigned mission will be shared.",
+      "clause4": "For this contract the assignment(s), purchase invoice(s) and transfer voucher(s) for the item(s) that will be exchanged between the two parties will be kept and made available to the parties involved in this agreement.      ",
+      "clause5": "If the service/order is not carried out correctly according to the indications given by the Company, the latter will not pay for the service. The Buyer may be required to reimburse the amount corresponding to the loss or damage of the purchased item(s).",
+      "clause6": "In the event of a change in the terms and conditions, the Company shall notify the Buyer/Representative of any changes. The Buyer/Representative shall have the right to terminate the contract within 15 days from the date of receipt of such notice. If the Buyer/Representative does not pursue termination within the 15 day period, it shall be deemed to have agreed to the changed provisions and shall result in automatic renewal."
+    },
+    "PurchasePriceServiceFeeOrder": {
+      "title": "2. Purchase Price / Service Charge / Order",
+      "clause1": "The parties agree on the service fee for the purchase process.",
+      "clause2": "The amount of the service fee will be specified for each purchase, sale and order via the usual communication channels already used between the parties.",
+      "clause3": "The service fees depend on the customers' orders. They will vary from 30 € to 600 € (see table of commissions in appendix)."
+    },
+    "OwnershipOfPurchasedGoods": {
+      "title": "3. Ownership of purchased goods",
+      "clause1": "Only the Company is the owner of the goods purchased by the Agent, although the purchase invoice is issued in the name of the Agent; the latter is never the owner of the goods and is obliged to hand them over without delay to their owner, the Company.",
+      "clause2": "This is a material term of this Agreement."
+    },
+    "ModalitiesForTheProvisionOfServices": {
+      "title": "4. Terms of service delivery",
+      "clause1": "The working method is to create an important/preferential/VIP customer account for the seller/store/brand to agree to sell the Representative Buyer access to so-called limited/exclusive products. "
+    }
+  },
+  "Payment": {
+    "title": "II. Payment",
+    "Payment": {
+      "title": "1. Payment",
+      "clause": "When the Buyer/Representative purchases accessories and products from the Company, the Company shall provide the Buyer/Representative with the means of payment for the purchase of the item(s) concerned in the assignment. It is understood that the funds and the card belong to the Company and that only the Buyer/Representative is authorized to use them for the mission entrusted. "
+    },
+    "PaymentFoServicesProvided": {
+      "title": "2. Payment for services provided (Service / Order)",
+      "clause1": "The payments of the service fees are made after receiving the product and after checking that everything is correct. Payment will be made by bank transfer to a bank account provided by the buyer / representative.",
+      "clause2": "Bank account number to which the Purchaser/Representative wishes to receive payment:",
+      "bank": "BANK",
+      "swift": "SWIFT",
+      "iban": "IBAN"
+    }
+  },
+  "TerminationAndLiability": {
+    "title": "III. Termination and liability",
+    "clause1": "The Company will invest time and effort in training, creating a VIP profile, connecting with an employee/salesperson in the store(s), issuing a dedicated bank card to the Buyer/Representative. For these reasons, if the Buyer/Representative wishes to terminate his contract while the Company has invested in his profile, a penalty of 150 euros will be payable to cover training and/or administrative costs.",
+    "clause2": "This provision only applies if the Buyer/Representative takes advantage of Azur Aliance to create his/her VIP profile without subsequently giving the Company access to the limited items that can be obtained with the intention of keeping them for his/her own use or benefit, or for another reason.",
+    "clause3": "However, a justified termination by the Buyer/Representative indicating the intention to terminate the contract, may be presented to a company representative, followed by sending a written notice by registered mail to the company's registered office address,",
+    "note": "NOTE: The Company will not hold the Buyer/Representative responsible for failing to purchase these   exclusive/ limited items and will not penalize the Buyer/Representative if after several attempts (minimum 2), still following the employee's instructions, they fail.",
+    "addressL1": "19 Mara Gidik street, 2nd floor",
+    "addressL2": "8000 Burgas, Burgas",
+    "addressL3": " Bulgaria"
+  },
+  "LoyaltyAndEthics": {
+    "title": "IV. Loyalty and ethics",
+    "clause1": "From the moment of the signing of the contract and for two years following its completion/termination, the Buyer/Representative will not be able to make purchases, orders similar to those resulting from its work with Azur Aliance, for the interest of so-called competing companies.",
+    "clause2": "The company as principal, reserves the right to authorize the intermediary to make private purchases on products that may be of interest to it.",
+    "clause3": "In the event of breach of this conditions , the Company shall be entitled to claim as compensation any amount of profit at fair market value that may have been realized by the Company after the sale of the product(s) purchased without the Company's consent by the Buyer / Representative."
+  },
+  "Signature": "Signature",
+  "BuyerRepresentative": "The Buyer / Representative",
+  "Company": "The Company"
+}

@@ -1,0 +1,27 @@
+{
+  "languages": {
+    "en": "English",
+    "FR": "French",
+    "IT": "Italien",
+    "BG": "Bulgare",
+    "DE": "Allemand",
+    "ES": "Espagnol"
+  },
+  "actions": {
+    "activate": "Activate",
+    "cancel": "Cancel",
+    "deactivate": "Deactivate",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Валидирайте",
+    "doSignature": "Повторете подписа"
+  },
+  "use": {
+    "commissionArgrement": "ДОГОВОР ЗА ВЪЗЛАГАНЕ",
+    "merchandiseTransfer": "ДОГОВОР ЗА ПРЕХВЪРЛЯНЕ НА СТОКИ",
+    "language": "language",
+    "required": "Това поле е задължително",
+    "goBack": "Върни се",
+    "toastError": "Неразрешено! Означението на страницата е изтекло"
+  }
+}

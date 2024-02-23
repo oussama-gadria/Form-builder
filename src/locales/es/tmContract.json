@@ -1,0 +1,50 @@
+{
+  "transferContract": "CONTRATO DE CESIÓN DE BIENES",
+  "Number": "NÚMERO",
+  "Date": "FECHA DE LA FIRMA DEL CONTRATO:",
+  "ownerCompany": {
+    "title": "I. PROPIETARIO DE LA EMPRESA QUE HA FINANCIADO LA ADQUISICIÓN DE LA(S) PROPIEDAD(ES)",
+    "company": "Azur Aliance JSC registrada con el número 206565325, con domicilio social en la ciudad de Burgas, Bulgaria, número de IVA BG206565325",
+    "RepresentedBy": "Representado por :",
+    "Telephone": "Número de teléfono móvil:",
+    "Email": "Correo electrónico:",
+    "Name": "Representante local de Azur Aliance",
+    "ownerCompany": "EMPRESA PROPIETARIA DE LA(S) PROPIEDAD(ES)"
+  },
+  "agentRepresentative": {
+    "title": "II. Comprador",
+    "Name": "Nombre :",
+    "LastName": "Nombre :",
+    "Adresse": "Dirección :",
+    "Signature": "Firma: :"
+  },
+  "product": {
+    "title": "III. DESCRIPCIÓN DEL PRODUCTO",
+    "Designation": "1. Designación:",
+    "Manufacturer": "2. Fabricante:"
+  },
+  "Payment": {
+    "title": "IV. IMPORTE Y COMISIONES",
+    "productPriceInTheStore": "1. El precio del producto pagado en tienda, descrito en el punto III anterior, es de",
+    "commission": "2. La comisión pagada al comprador por la cesión es de",
+    "priceDescribed": "3. El precio descrito incluye la entrega y aceptación de la mercancía sin costes adicionales."
+  },
+  "delivery": {
+    "title": "V. ENTREGA, INSPECCIÓN Y RECLAMACIONES",
+    "clause1": "1. La mercancía deberá entregarse o enviarse a la siguiente dirección de Azur-Aliance JSC",
+    "clause2": "2. Si la mercancía se recibe a distancia, el comprador deberá inspeccionarla inmediatamente después de recibirla e informar al vendedor si hay algún problema.",
+    "clause3": "3.  Una vez aceptada la mercancía, se firma un documento de aceptación."
+  },
+  "disputes": {
+    "title": "VI. LITIGIOS Y RESPONSABILIDAD",
+    "clause1": "1. El presente contrato, su ejecución, no ejecución, validez y rescisión están sujetos a las disposiciones del derecho civil de .",
+    "clause2": "2. Cualquier litigio relativo al presente contrato, su ejecución, su no ejecución, su validez y su rescisión se someterá a los tribunales"
+  },
+  "communication": {
+    "title": "VII. COMUNICACIÓN Y NOTIFICACIONES",
+    "clause": "Cada correo electrónico, enviado a la dirección de correo electrónico indicada en este contrato, se considerará como una notificación debidamente enviada y recibida, tanto si el destinatario la ha abierto como si no."
+  },
+  "Signature": "Firma: ",
+  "BuyerRepresentative": "COMPRADOR",
+  "Company": "EMPRESA PROPIETARIA DE LA(S) PROPIEDAD(ES)"
+}

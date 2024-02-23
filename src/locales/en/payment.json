@@ -1,0 +1,22 @@
+{
+  "SubscriptionExhausted": "Your subscription is exhausted !",
+  "ChooseYourPack": "Choose your pack",
+  "ExpirationDate": "Expiration date : ",
+  "RemainingContract": "Remaining contract :",
+  "Details": "Details : ",
+  "Buy": "Buy",
+  "Renew": "Renew",
+  "errorCheckout": "An error occurred during your payment",
+  "goToPayment": "Go to payment page",
+  "successCheckout": "Your payment has been made successfully",
+  "successCheckoutLaunch": "As a year-end gift, we're delighted to offer you a free 15-day of subscription. It's our way of expressing gratitude for your trust. Make the most of our services, and please don't hesitate to share your feedback with us.",
+  "goToDashboard": "Go to dashboard",
+  "successTokenCheckout": "Your purchase of Tokens has been successfully completed",
+  "YourInvoice": "Your invoice",
+  "Pay": "Pay",
+  "CardNumber": "Card number",
+  "Checkout": "Checkout",
+  "Redirection": "You will be redirected to the Stripe payment site",
+  "RedirectionConfirmed": "Redirection ...",
+  "noValidSubscription": "No valid subscription"
+}

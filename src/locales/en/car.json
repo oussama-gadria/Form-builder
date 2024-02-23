@@ -1,0 +1,16 @@
+{
+    "carType":{
+        "label":"Car type",
+        "required":"Car type is required"
+    },
+    "data": {
+        "mileage": {
+            "invalid": "Mileage should be a numbers",
+            "tooShort":"mileage too short (max. {{min}} numbers)",
+            "tooLong":"mileage too long (min. {{min}} numbers)"
+        }
+    },
+    "button":{
+         "next" :"Next"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "SuccessDelete": "The company has been successfully deleted",
+  "SuccessUpdate": "The Status has been successfully modified",
+  "SuccessAdd": "The company was successfully added",
+  "CopanyInformation": "Company informations",
+  "CompanyManagement": "Companies management",
+  "AddCompany": "Add company",
+  "Denomination": "Denomination",
+  "PresidentName": "President name",
+  "Logo": "Logo company",
+  "PostalCode": "Postal code",
+  "Address": "Address",
+  "Siren": "Siren",
+  "Siret": "Siret",
+  "NoCompany": "No company is available",
+  "UpdateCompany": "Edit company",
+  "Edit": "Edit",
+  "Add": "Add"
+}

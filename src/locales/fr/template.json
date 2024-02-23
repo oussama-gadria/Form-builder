@@ -1,0 +1,58 @@
+{
+  "SuccessDelete": "Le template a été supprimée avec succès",
+  "SuccessUpdate": "Le template a été modifié avec succès",
+  "SuccessAdd": "Le template a été ajouté avec succès",
+  "TemplateManagement": "Gestion des templates",
+  "AddTemplate": "Ajouter un template",
+  "EditTemplate": "Modifier un template",
+  "Number": "Numéro",
+  "Name": "Nom",
+  "Language": "Langue",
+  "NoTemplate": "Aucun template",
+  "UpdateTemplate": "Modifier un template",
+  "Edit": "Modifier",
+  "Add": "Ajouter",
+  "Form": {
+    "Name": "Nom du template",
+    "Description": "Description",
+    "ChooseLanguage": "Choisir une langue",
+    "ChooseContext": "Choisir le cadre",
+    "GenerateWithAi": "Générer votre template avec l'IA",
+    "UseFields": "Utilisant ces champs",
+    "LabelSign1": "Label signature de la première partie",
+    "LabelSign2": "Label signature de la deuxième partie",
+    "PlaceHolderSign1": "par exemple : Employé",
+    "PlaceHolderSign2": "par exemple : Employeur"
+  },
+  "preview": {
+    "FormPreview": "Changer en aperçu Forumlaire",
+    "PdfPreview": "Changer en aperçu PDF",
+    "PdfPreviewToGenerate": "Aperçu PDF qui va être généré",
+    "TemplatePreview": "Aperçu du template à remplir par la deuxième partie"
+  },
+  "Modal": {
+    "ConfirmBuy": "Confirmez-vous l'achat de crédits ?",
+    "WantToBuy": "Voulez-vous acheter un crédit de",
+    "Tokens": "tokens pour",
+    "Confirm": "Confirmer",
+    "Cancel": "Fermer",
+    "Delete": "Supprimer",
+    "ConfirmDelete": "Confirmer la suppression ?"
+  },
+  "SignatuerEmployer": "Signature de l'employeur",
+  "SignatureEmployee": "Signature de l'employé",
+  "DeleteLangContent": "Supprimer le contenu de cette langue",
+  "TempalteContent": "Contenu du template",
+  "AddCustomizableInput": "Ajoutez des champs avec le format @[champ]@, où 'champ' est une variable personnalisable.",
+  "PassToPremium": "Passer au premium pour utiliser l'IA",
+  "TakeFewMoments": "Cela peut prendre quelques instants.",
+  "ExhaustedWords": "Nombre des mots épuisé (Token)",
+  "Generate": "Générer",
+  "contentToGenerate": {
+    "defaultValue": "Générer un contrat du travail de 3 lignes",
+    "label": "Rédigez votre demande",
+    "placeholder": "Essayez : Générer un contrat du travail"
+  },
+  "useTemplate": "Utiliser ce template",
+  "errorContent": "Certains champs {{fields}} ne sont pas encore ajoutés dans la langue sélectionnée, qui sont présents dans la langue principale, ou vice versa"
+}

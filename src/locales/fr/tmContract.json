@@ -1,0 +1,50 @@
+{
+  "transferContract": "CONTRAT DE TRANSFERT DES MARCHANDISES",
+  "Number": "NUMERO",
+  "Date": "DATE DE SIGNATURE DU CONTRAT :",
+  "ownerCompany": {
+    "title": "I. ENTREPRISE PROPRIETAIRE QUI A FINANCER L’AQUISITIONS DU/DES BIENS",
+    "company": "Azur Aliance JSC enregistrée sous le numéro 206565325, ayant son siège social dans la ville de Burgas, Bulgarie, numéro de TVA BG206565325",
+    "RepresentedBy": "Représenté par",
+    "Telephone": "Numéro de portable",
+    "Email": "E-mail",
+    "Name": "Représentant local d’Azur Aliance",
+    "ownerCompany": "ENTREPRISE PROPRIÉTAIRE DU OU DES BIEN(S)"
+  },
+  "agentRepresentative": {
+    "title": "II. MANDATAIRE",
+    "Name": "Prénom :",
+    "LastName": "nom :",
+    "Adresse": "Adresse :",
+    "Signature": "Signature :"
+  },
+  "product": {
+    "title": "III. DESCRIPTION DU PRODUIT, OBJET DE LA TRANSMISSION",
+    "Designation": "1. Désignation :",
+    "Manufacturer": "2. Fabricant :"
+  },
+  "Payment": {
+    "title": "IV. PRIX PAYÉ ET RÈGLES DE COMMISSION",
+    "productPriceInTheStore": "1. Le prix du produit payé en magasin, décrit au point III ci-dessus est de ",
+    "commission": "2. La commission versée à l'acquéreur pour la mission est de",
+    "priceDescribed": "3. Le prix décrit comprend la livraison et la réception de la marchandise, sans frais supplémentaires."
+  },
+  "delivery": {
+    "title": "V. LIVRAISON, INSPECTION, RÉCLAMATIONS",
+    "clause1": "1. Le bien doit être déposé ou expédié à l'adresse d'Azur-Aliance JSC suivante",
+    "clause2": "2. En cas de réception à distance du bien, l'acheteur doit l'inspecter immédiatement après l'avoir reçu et informé le vendeur en cas de problème.",
+    "clause3": "3. Lors de l'acceptation de la marchandise est signé un protocole d'acceptation."
+  },
+  "disputes": {
+    "title": "VI. LITIGES ET RESPONSABILITÉS",
+    "clause1": "1. Le présent contrat, son exécution, sa non-exécution, sa validité et sa résiliation sont soumis aux dispositions de la législation civile.",
+    "clause2": "2. Chaque litige concernant ce contrat, son exécution, sa non-exécution, sa validité et sa résiliation sera porté devant le tribunal."
+  },
+  "communication": {
+    "title": "VII. COMMUNCATION ET NOTIFICATIONS",
+    "clause": "Chaque e-mail, envoyé à l'adresse e-mail indiquée dans le présent contrat, sera considéré comme une notification dûment   envoyée et reçue, que le destinataire l'ait ouvert ou non."
+  },
+  "Signature": "Signature",
+  "BuyerRepresentative": "ACHETEUR",
+  "Company": "ENTREPRISE PROPRIÉTAIRE DU OU DES BIEN(S)"
+}

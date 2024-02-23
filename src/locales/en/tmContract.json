@@ -1,0 +1,48 @@
+{
+  "transferContract": "CONTRACT FOR THE TRANSFER OF GOODS",
+  "Number": "Number",
+  "Date": "DATE OF SIGNATURE OF THE CONTRACT :",
+  "ownerCompany": {
+    "title": "I. COMPANY OWNER WHO HAS FINANCED THE ACQUISITION OF THE PROPERTY/IES",
+    "company": "Azur Aliance JSC registered under the number 206565325, having its registered office in the city of Burgas, Bulgaria, VAT number BG206565325",
+    "RepresentedBy": "Represented by",
+    "Telephone": "Cell phone number",
+    "Email": "E-mail",
+    "Name": "Local representative of Azur Aliance",
+    "ownerCompany": "COMPANY THAT OWNS THE PROPERTY(IES)"
+  },
+  "agentRepresentative": {
+    "title": " APPLICANT",
+    "Name": "First name :",
+    "LastName": "Name :",
+    "Adresse": "Adresse :",
+    "Signature": "Signature :"
+  },
+  "product": {
+    "title": "III. DESCRIPTION OF THE PRODUCT, OBJECT OF THE TRANSMISSION",
+    "Designation": "1. Designation :",
+    "Manufacturer": "2. Manufacturer :"
+  },
+  "Payment": {
+    "title": "IV. PRICE PAID AND COMMISSION RULES",
+    "productPriceInTheStore": "1. The price of the product paid in store, described in point III above is",
+    "commission": "2. The commission paid to the buyer for the mission is",
+    "priceDescribed": "3. The described price includes the delivery and the reception of the goods, without additional costs."
+  },
+  "delivery": {
+    "title": "V. DELIVERY, INSPECTION, CLAIMS",
+    "clause1": "1. The goods must be dropped off or sent to the following Azur-Aliance JSC address",
+    "clause2": "2. In case of remote reception of the good, the buyer must inspect it immediately after receiving it and inform the seller in case of any problem.",
+    "clause3": "3. Upon acceptance of the goods, an acceptance protocol is signed."
+  },
+  "disputes": {
+    "title": "VI. LITIGATION AND LIABILITY",
+    "clause1": "1. This contract, its execution, non-execution, validity and termination are subject to the provisions of civil legislation.",
+    "clause2": "2. Any dispute concerning this contract, its execution, its non-execution, its validity and its termination will be brought before the court."
+  },
+  "communication": {
+    "title": "VII. COMMUNICATION AND NOTIFICATIONS",
+    "clause": "Each e-mail, sent to the e-mail address specified in this Agreement, shall be deemed to be a properly sent and received notice, whether or not the recipient has opened it."
+  },
+  "Signature": "Signature"
+}

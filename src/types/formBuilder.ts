@@ -1,0 +1,1 @@
+export type InputType = "FieldInput"| "FieldCheckboxes" | "FieldRadios" | "FieldSelect" | "FieldTextarea" | "FieldImage64bit" | "FieldDayPicker" | "FieldEditor" | "FieldVideo"

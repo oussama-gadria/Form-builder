@@ -1,0 +1,86 @@
+{
+  "languages": {
+    "en": "Anglais",
+    "FR": "Français",
+    "IT": "Italien",
+    "BG": "Bulgare",
+    "DE": "Allemand",
+    "ES": "Espagnol"
+  },
+  "actions": {
+    "activate": "Activer",
+    "cancel": "Fermer",
+    "deactivate": "Désactiver",
+    "delete": "supprimer",
+    "edit": "Editer",
+    "save": "Valider",
+    "send": "Envoyer",
+    "doSignature": "Refaire la signature"
+  },
+  "use": {
+    "commissionArgrement": "ACCORD DE COMMISSION",
+    "merchandiseTransfer": "CONTRAT DE TRANSFERT DES MARCHANDISES",
+    "language": "language",
+    "required": "Ce champ est obligatoire",
+    "goBack": "Retour",
+    "toastError": "Non autorisé ! Le jeton de la page a expiré",
+    "errorOccurred": "une erreur s'est produite",
+    "clickToDownload": "Cliquez pour télécharger"
+  },
+  "categories":{
+    "updateCategory":"Modifier catégorie",
+    "SuccessDelete":"Catégorie supprimée avec  succès",
+    "SuccessUpdate":"Catégorie modifiée avec  succès",
+    "noCategories":"Aucun catégorie",
+    "categoryManagment":"Gestion des catégorie",
+     "addCategory":"Ajouter une catégorie",
+     "createCategory":"Ajouter une catégorie",
+     "categoryName":"Nom du catégorie",
+     "categoryPlaceHolder":"Taper le nom de la catégorie",
+     "save":"Enregistrer",
+     "cancel":"Annuler",
+     "SuccessAdd":"Catégorie ajoutée avec succès",
+     "SuccessDuplicate":"Catégorie dupliqué avec succès"
+
+  },
+  "subCategories":{
+    "updateSubCategory":"Modifier Sous-catégorie",
+    "SuccessDelete":"Sous-catégorie supprimée avec succès",
+    "SuccessUpdate":"Sous-catégorie modifiée avec  succès",
+    "categoryManagment":"Gestion des sous-catégorie",
+     "addSubCategory":"Ajouter une sous-catégorie",
+     "createSubCategory":"Ajouter une sous-catégorie",
+     "SubCategoryName":"Nom du sous-catégorie",
+     "SubCategoryPlaceHolder":"Taper le nom de la sous-catégorie",
+     "save":"Enregistrer",
+     "cancel":"Annuler",
+     "SuccessAdd":"Sous-catégorie ajoutée avec succès",
+     "NoSubCategory":"Aucun sous-catégorie",
+     "SuccessDuplicate":"Sous_catégorie dupliqué avec succès",
+     "Display":"Afficher",
+     "Hide":"Cacher"
+  },
+  "Inputs":{
+    "Actions":"Actions",
+    "Key":"Clé",
+    "Value":"Valeur",
+    "Cancel":"Annuler",
+    "Save":"Enregistrer",
+    "Title":"Personnalisez votre propre formulaire",
+    "SuccessAdd":"champ ajoutée avec succès",
+    "Name":"Nom",
+    "Update":"Modification du champ",
+    "PlaceHolder":"Taper le nouveau nom de ce champ ",
+    "Label":"Label",
+    "required":"Ce champ est obligatoire",
+    "SuccessUpdated":"champ modifiée avec succès",
+    "SuccessDeleted":"champ supprimée avec succès"
+  },
+  "folder":{
+    "SuccessAdd":"Dossier ajouté avec succés"
+  },
+  "status":{
+    "Success":"Status ajouté avec succés",
+    "error":"Erreur d'ajout du Status"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "commissionArgrement": "AUSSCHUSSVEREINBARUNG",
+  "GeneralContractOfOrder": "Allgemeiner Bestell-, Kauf- und Verkaufsvertrag ",
+  "Number": "Nummer",
+  "Date": "Datum",
+  "AzurAlianceJsc": "Azur-Aliance Jsc,",
+  "refferedToAzurAliance": "im Folgenden als Gesellschaft mit der USt-IdNr. BG206565325 bezeichnet, mit Sitz an der Verwaltungsadresse, die sich an der Adresse 19 Mara Gidik Straße, 2. Stock, 8000 Burgas, Bulgarien befindet.",
+  "referredToCompany": {
+    "title": "Im Folgenden 'das Unternehmen' oder 'die Gesellschaft' genannt; Und",
+    "Name": "Name / Vorname ",
+    "IdPassport": "ID - Pass ",
+    "Nationality": "Nationalität ",
+    "Adresse": "Adresse ",
+    "ZipCode": "Postleitzahl ",
+    "City": "Stadt  ",
+    "Telephone": "Tel.-Nr. ",
+    "Email": "Email"
+  },
+  "refferedToBuyer": {
+    "title": "Nachfolgend als 'Käufer/Vertreter' bezeichnet ;",
+    "clause1": "Dieser Vertrag wird auf der Grundlage von Art. 127 des bulgarischen Mehrwertsteuergesetzes und Art. 14, S.2 der EU-Mehrwertsteuerrichtlinie 2006/115 geschlossen.",
+    "clause2": "Beide Parteien bestätigen, dass sie geschäftsfähig sind, um diesen Vertrag zu unterzeichnen, und beide Parteien führen diese Bestellung und den Kauf- und Übertragungsvertrag gemäß dem Recht des EU-Mitgliedslandes Bulgarien und den unten aufgeführten allgemeinen Geschäftsbedingungen aus. Beide Parteien erklären, bestätigen und akzeptieren, dass dieser Vertrag ein Dienstleistungsvertrag ist und in keiner Weise einen Arbeitsvertrag darstellt, und dass eine solche Rechtsbeziehung nicht vorausgesetzt wird. Der Käufer/Vertreter hat die Möglichkeit, aber nicht die Pflicht, freiwillig einen Vertrag abzuschließen und ein selbstständiger Unternehmer in Form von selbstständigen Dienstleistungen zu sein."
+  },
+  "GeneralConditions": {
+    "title": "I. Allgemeine Bedingungen",
+    "GeneralConditions": {
+      "title": "1. Allgemeine Bedingungen",
+      "clause1": "Der Vertrag soll klarstellen, dass das Unternehmen in der Luxusgüterbranche tätig ist und ein Produkt über den Käufer/Vertreter erwerben kann.      ",
+      "clause2": "Der Dienstleistungsauftrag des Käufers besteht im Kauf und der Übergabe des Produkts/der Produkte an das Unternehmen. Er gilt als erfüllt, wenn er in seiner Gesamtheit korrekt ausgefüllt ist, sodass das Produkt in einwandfreiem Zustand empfangen wird.",
+      "clause3": "Die Kommunikation des Unternehmens erfolgt per E-Mail, WhatsApp und Telefon, die in diesem Vertrag vorgesehen sind, von dem alle Informationen über den zugewiesenen Auftrag geteilt werden.",
+      "clause4": "Für diese Vereinbarung werden der/die Auftrag/e, die Einkaufsrechnungen und der/die Abtretungsschein/e für den/die Artikel, die zwischen den beiden Parteien ausgetauscht werden, aufbewahrt und den an dieser Vereinbarung beteiligten Parteien zur Verfügung gestellt.",
+      "clause5": "Wenn die Dienstleistung/der Auftrag nicht korrekt nach den Vorgaben des Unternehmens ausgeführt wird, zahlt das Unternehmen nicht für die Dienstleistung. Der Käufer kann verpflichtet werden, ihm den Betrag zu erstatten, der dem Verlust oder der Beschädigung des/der gekauften Artikel(s) entspricht.",
+      "clause6": "Im Falle einer Änderung der Allgemeinen Geschäftsbedingungen teilt das Unternehmen dem Käufer/Vertreter diese Änderungen mit. Der Käufer/Vertreter hat das Recht, den Vertrag innerhalb von 15 Tagen nach Erhalt einer solchen Mitteilung zu kündigen. Wenn der Käufer/Vertreter nicht innerhalb der 15-Tage-Frist kündigt, wird davon ausgegangen, dass er mit den geänderten Bestimmungen einverstanden ist, und der Vertrag wird automatisch verlängert."
+    },
+    "PurchasePriceServiceFeeOrder": {
+      "title": "2. Kaufpreis / Servicegebühr / Bestellung ",
+      "clause1": "Die Parteien einigen sich auf eine Servicegebühr für den Kaufprozess.",
+      "clause2": "Die Höhe der Servicegebühr wird für jeden Kauf, Verkauf und jede Bestellung über die üblichen, bereits zwischen den Parteien genutzten Kommunikationskanäle angegeben.",
+      "clause3": "Die Servicegebühren hängen von den Bestellungen der Kunden ab. Sie werden zwischen 30 € und 600 € schwanken (siehe Provisionstabelle im Anhang)."
+    },
+    "OwnershipOfPurchasedGoods": {
+      "title": "3. Eigentum an gekauften Gütern",
+      "clause1": "Nur das Unternehmen ist Eigentümer der vom Auftragnehmer gekauften Waren, obwohl die Kaufrechnung auf den Namen des Auftragnehmers ausgestellt ist; der Auftragnehmer ist niemals Eigentümer der Waren und hat die Pflicht, sie unverzüglich an ihren Eigentümer, das Unternehmen, zurückzugeben.",
+      "clause2": "Dies ist eine wesentliche Bedingung dieses Vertrags."
+    },
+    "ModalitiesForTheProvisionOfServices": {
+      "title": "4. Modalitäten für die Erbringung von Dienstleistungen",
+      "clause1": "Die Arbeitsmethode besteht darin, ein wichtiges/präferentielles/VIP-Kundenkonto einzurichten, damit der Verkäufer/das Geschäft/die Marke sich bereit erklärt, dem Repräsentantenkäufer den Zugang zu sogenannten limitierten/exklusiven Produkten zu verkaufen. "
+    }
+  },
+  "Payment": {
+    "title": "II. Zahlung",
+    "Payment": {
+      "title": "1. Zahlung",
+      "clause": "Wenn der Käufer/Vertreter Zubehör und Produkte im Geschäft vom Unternehmen erwirbt, stellt das Unternehmen dem Käufer/Vertreter das Zahlungsmittel zur Verfügung, um den/die Artikel zu erwerben, die für den Auftrag relevant sind. Es wird davon ausgegangen, dass das Geld und die Karte dem Unternehmen gehören und dass nur der Käufer/Vertreter berechtigt ist, sie für den Auftrag zu verwenden."
+    },
+    "PaymentFoServicesProvided": {
+      "title": "2. Bezahlung für erbrachte Leistungen (Service / Bestellung)",
+      "clause1": "Zahlungen von Servicegebühren erfolgen nach Erhalt des Produkts und nach der Überprüfung, ob alles in Ordnung ist. Die Zahlung erfolgt per Banküberweisung auf ein vom Käufer/Vertreter angegebenes Bankkonto.",
+      "clause2": "Nummer des Bankkontos, auf das der Käufer/Vertreter seine Vergütung erhalten möchte :",
+      "bank": "BANK",
+      "swift": "SWIFT",
+      "iban": "IBAN"
+    }
+  },
+  "TerminationAndLiability": {
+    "title": "III. Kündigung und Haftung",
+    "clause1": "Das Unternehmen investiert Zeit und Mühe in die Schulung, die Erstellung eines VIP-Profils, die Vermittlung eines Mitarbeiters/Verkäufers in der/den Filiale(n) und die Ausstellung einer eigenen Bankkarte für den Käufer/Vertreter. Aus diesen Gründen muss, wenn der Käufer/Vertreter seinen Vertrag kündigen möchte, obwohl das Unternehmen in sein Profil investiert hat, eine Vertragsstrafe von 150 Euro gezahlt werden, um die Schulungs- und/oder Verwaltungskosten zu decken.",
+    "clause2": "Dies gilt nur, wenn der Käufer/Vertreter die Azur Aliance nutzt, um sein VIP-Profil zu erstellen, ohne dem Unternehmen anschließend Zugang zu den begrenzten Gegenständen zu gewähren, die mit der Absicht erlangt werden können, diese für den eigenen Gebrauch oder Nutzen oder aus einem anderen Grund zu behalten.",
+    "clause3": "Ein begründeter Rücktritt des Käufers/Vertreters, der die Absicht zum Rücktritt vom Vertrag anzeigt, kann jedoch bei einem Vertreter des Unternehmens eingereicht werden, gefolgt von einer schriftlichen Mitteilung per Einschreiben an die Adresse des Hauptsitzes des Unternehmens, d. h. :",
+    "note": "HINWEIS: Das Unternehmen macht den Käufer/Vertreter nicht haftbar, wenn er es unterlässt, diese eingeschränkten Artikel zu kaufen, und bestraft ihn nicht, wenn er nach mehreren Versuchen (mindestens zwei), bei denen er stets die Anweisungen des Mitarbeiters befolgt, scheitert.",
+    "addressL1": "19 Mara Gidik street, 2. Stock ",
+    "addressL2": "8000 Burgas, Burgas",
+    "addressL3": " Bulgarien"
+  },
+  "LoyaltyAndEthics": {
+    "title": "IV. Loyalität und Ethik",
+    "clause1": "Ab dem Zeitpunkt der Vertragsunterzeichnung und innerhalb von zwei Jahren nach Beendigung / Kündigung des Vertrages darf der Käufer/Vertreter keine Einkäufe, Aufträge, die denen aus seiner Arbeit mit Azur Aliance ähneln, im Interesse von sogenannten Konkurrenzunternehmen tätigen.",
+    "clause2": "Das Unternehmen als Auftraggeber behält sich das Recht vor, dem Vermittler zu erlauben, private Käufe von Produkten zu tätigen, die für das Unternehmen von Interesse sein könnten.",
+    "clause3": "Bei Nichteinhaltung dieser Bestimmung ist das Unternehmen berechtigt, als Entschädigung jeden Gewinnbetrag zum angemessenen Marktwert zu verlangen, den das Unternehmen nach dem Verkauf des/der ohne Zustimmung des Unternehmens gekauften Produkts/Produkte durch den Käufer/Repräsentanten hätte erzielen können."
+  },
+  "Signature": "Unterschrift",
+  "BuyerRepresentative": "Der Käufer/Vertreter",
+  "Company": "Das Unternehmen"
+}

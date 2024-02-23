@@ -1,0 +1,15 @@
+{
+  "CancelSubscription": "Annuler l'abonnement",
+  "CancelSubscriptionSuccess": "votre abonnement à été annulé avec success",
+  "SubscriptionExpireAt": "Votre abonnement expirera le : ",
+  "SubscriptionCanceledAt": "Vous avez annulé votre abonnement le : ",
+  "ContinuedService": "Vous continue à bénéficier de nos services  jusqu'au",
+  "AutoRenewal": "Votre abonnement sera renouveler automatiquement. ",
+  "DownloadBill": "Télécharger la dernière facture",
+  "paymentMethod": "Moyen de paiement ",
+  "expireAt": "expire le",
+  "BillInformation": "Information de facturation",
+  "Name": "Nom : ",
+  "Email": "Email : ",
+  "BillingHistory": "Historique de facturation"
+}

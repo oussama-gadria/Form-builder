@@ -1,0 +1,24 @@
+{
+  "SuccessDelete": "La société a été supprimée avec succès",
+  "SuccessUpdate": "Status changé avec succès",
+  "SuccessAdd": "La société a été ajouté avec succès",
+  "CopanyInformation": "Informations société",
+  "CompanyManagement": "Gestion des société",
+  "AddCompany": "Ajouter une société",
+  "Denomination": "Dénomination",
+  "PresidentName": "Président",
+  "Logo": "Logo de la société",
+  "PostalCode": "Code postal",
+  "Address": "Adresse",
+  "Siren": "Siren",
+  "Siret": "Siret",
+  "NoCompany": "Aucune société",
+  "UpdateCompany": "Modifier la société",
+  "Edit": "Modifier",
+  "Add": "Ajouter",
+  "Form": {
+    "Name": "Nom de la société",
+    "Code": "Code de la société",
+    "Flag": "Drapeau de la société"
+  }
+}

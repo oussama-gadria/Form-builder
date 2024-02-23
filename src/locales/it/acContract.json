@@ -1,0 +1,85 @@
+{
+  "commissionArgrement": "ACCORDO DI COMMISSIONE",
+  "GeneralContractOfOrder": "Contratto generale di compravendita",
+  "Number": "Numero",
+  "Date": "Data",
+  "AzurAlianceJsc": "Azur Aliance Jsc,",
+  "refferedToAzurAliance": "di seguito denominata la Società, con partita IVA BG206565325, con sede legale presso l'indirizzo della direzione, situato in via Mara Gidik 19, 2° piano, 8000 Burgas, Bulgaria.",
+  "referredToCompany": {
+    "title": "Di seguito denominata 'la Società'; e",
+    "Name": "Nome / Cognome",
+    "IdPassport": "Carta di Identità’/Passaporto",
+    "Nationality": "Nazionalità",
+    "Adresse": "Indirizzo",
+    "ZipCode": "Codice postale",
+    "City": "Città",
+    "Telephone": "Numero di telefono",
+    "Email": "Email"
+  },
+  "refferedToBuyer": {
+    "title": "Di seguito indicato come 'Acquirente/Rappresentante';",
+    "clause1": "Il presente contratto viene stipulato in base all'articolo 127 della Legge bulgara sull'IVA e all'articolo 14, paragrafo 2 della Direttiva UE sull'IVA 2006/115.",
+    "clause2": "Entrambe le parti riconoscono di avere la capacità giuridica di stipulare il presente contratto, ed entrambe le parti eseguiranno il presente ordine e il contratto di acquisto e consegna in conformità con la legge dello Stato membro dell'Unione Europea Bulgaria, in conformità con i termini e le condizioni di seguito indicati. Entrambe le parti dichiarano, confermano e accettano che il presente contratto è un contratto di servizi e non costituisce in alcun modo un contratto di lavoro, e che tale rapporto giuridico non è presunto. L'Acquirente/Rappresentante ha la possibilità, ma non l'obbligo, di stipulare volontariamente un contratto e di essere un contraente indipendente sotto forma di servizi indipendenti."
+  },
+  "GeneralConditions": {
+    "title": "I. Condizioni generali",
+    "GeneralConditions": {
+      "title": "1. Condizioni generali",
+      "clause1": "Lo scopo del contratto è quello di specificare che l'azienda opera nel settore del lusso e può acquistare un prodotto attraverso l'Acquirente/Rappresentante.",
+      "clause2": "L'incarico di servizio dell'Acquirente consiste nell'acquisto e nella consegna del/i prodotto/i all'azienda. Si considera eseguito se viene completato correttamente nella sua interezza, in modo che il prodotto venga ricevuto in perfette condizioni.",
+      "clause3": "Le comunicazioni dell'Azienda avverranno tramite e-mail, WhatsApp e telefono, come previsto dal presente contratto, con la condivisione di tutte le informazioni relative all'incarico.",
+      "clause4": "Ai fini del presente contratto, le cessioni, le fatture di acquisto e le note di trasferimento per gli articoli che  saranno scambiati tra le due parti saranno conservate e messe a disposizione delle parti coinvolte nel  presente accordo.",
+      "clause5": "Se il servizio/ordine non viene eseguito correttamente secondo le istruzioni fornite dalla Società, quest'ultima non pagherà il servizio. L'Acquirente può essere tenuto a rimborsare alla Società la perdita o il danneggiamento dell'articolo o degli articoli acquistati.",
+      "clause6": "In caso di modifica dei termini e delle condizioni, la Società informerà l'Acquirente/Rappresentante di ogni  cambiamento. L'Acquirente/Rappresentante avrà il diritto di risolvere il contratto entro 15 giorni dalla data  di ricevimento di tale comunicazione. Se l'Acquirente/Rappresentante non esercita il diritto di recesso entro il termine di 15 giorni, si riterrà che abbia accettato le disposizioni modificate e che ciò comporti il rinnovo automatico."
+    },
+    "PurchasePriceServiceFeeOrder": {
+      "title": "2. Prezzo d'acquisto / Costo del servizio / Ordine",
+      "clause1": "Le parti concordano una commissione di servizio per il processo di acquisto.",
+      "clause2": "L'importo del costo del servizio sarà specificato per ogni acquisto, vendita e ordine attraverso i consueti canali di comunicazione già utilizzati tra le parti.",
+      "clause3": "La commissione di servizio dipende dall'ordine del cliente. Esse variano da 30 a 600 euro (vedi tabella delle commissioni in appendice)."
+    },
+    "OwnershipOfPurchasedGoods": {
+      "title": "3. Proprietà dei beni acquistati",
+      "clause1": "Solo la Società è proprietaria dei beni acquistati dal Contraente, anche se la fattura d'acquisto è emessa a  nome del Contraente; quest'ultimo non è mai proprietario dei beni ed è tenuto a consegnarli senza indugio al  proprietario, la Società.",
+      "clause2": "Si tratta di una condizione sostanziale del contratto."
+    },
+    "ModalitiesForTheProvisionOfServices": {
+      "title": "4. Condizioni di fornitura del servizio",
+      "clause1": "Il metodo di lavoro consiste nel creare un account cliente importante/preferenziale/VIP per il venditore/negozio/marchio che accetta di vendere all'Acquirente Rappresentante l'accesso ai cosiddetti prodotti limitati/esclusivi."
+    }
+  },
+  "Payment": {
+    "title": "II. Pagamento",
+    "Payment": {
+      "title": "",
+      "clause": "Quando l'Acquirente/Rappresentante acquista accessori e prodotti nel negozio dalla Società, quest'ultima  fornirà all'Acquirente/Rappresentante i mezzi di pagamento per l'acquisto del/dei prodotto/i oggetto  dell'incarico. Resta inteso che i fondi e la carta appartengono alla Società e che solo  l'Acquirente/Rappresentante è autorizzato a utilizzarli per l'incarico."
+    },
+    "PaymentFoServicesProvided": {
+      "title": " Pagamento per i servizi forniti (Servizio/Ordine)",
+      "clause1": "I pagamenti per le spese di servizio vengono effettuati dopo aver ricevuto il prodotto e dopo aver verificato  che tutto sia corretto. Il pagamento verrà effettuato tramite bonifico bancario su un conto corrente fornito  dall'acquirente/rappresentante.",
+      "clause2": "Numero di conto corrente bancario sul quale l'Acquirente/Rappresentante desidera ricevere il pagamento:",
+      "bank": "BANCA",
+      "swift": "SWIFT",
+      "iban": "IBAN"
+    }
+  },
+  "TerminationAndLiability": {
+    "title": "III. Cessazione e responsabilità",
+    "clause1": "La Società investirà tempo ed energie nella formazione, nella creazione di un profilo VIP, nel collegamento  con un dipendente/venditore del/i negozio/i, nell'emissione di una carta bancaria dedicata  all'Acquirente/Rappresentante. Per questi motivi, se l'Acquirente/Rappresentante desidera rescindere il  contratto mentre la Società ha investito nel suo profilo, dovrà pagare una penale di 150 euro per coprire i costi di formazione e/o amministrativi.",
+    "clause2": "Questa disposizione si applica solo se l'Acquirente/Rappresentante approfitta di Azur Aliance per creare il suo profilo VIP senza successivamente dare alla Società l'accesso agli oggetti limitati che possono essere ottenuti con l'intenzione di tenerli per il proprio uso o beneficio, o per un altro motivo.",
+    "clause3": "Tuttavia, una disdetta giustificata da parte dell'Acquirente/Rappresentante che indichi l'intenzione di recedere dal contratto, può essere presentata a un rappresentante della società, inviando poi una comunicazione scritta a mezzo raccomandata all'indirizzo della sede legale della società, ossia :",
+    "note": "NOTA: L'Azienda non riterrà responsabile l'Acquirente/Rappresentante per il mancato acquisto di questi articoli riservati e non lo penalizzerà se, dopo vari tentativi (minimo 2), sempre seguendo le istruzioni del  dipendente, non ci riuscirà.",
+    "addressL1": "19 Via Mara Gidik, 2° piano",
+    "addressL2": "8000 Burgas, Burgas",
+    "addressL3": " Bulgaria"
+  },
+  "LoyaltyAndEthics": {
+    "title": "IV. Lealtà ed etica",
+    "clause1": "Dal momento della firma del contratto e per i due anni successivi al suo perfezionamento/termine,  l'Acquirente/Rappresentante non potrà effettuare acquisti, ordini analoghi a quelli derivanti dalla sua attività  con Azur Aliance, nell'interesse di aziende cosiddette concorrenti.",
+    "clause2": "La società, in qualità di committente, si riserva il diritto di autorizzare l'intermediario ad effettuare acquisti privati di prodotti che possono essere di suo interesse.",
+    "clause3": "In caso di violazione di questa disposizione, la Società avrà il diritto di richiedere come risarcimento  qualsiasi importo di profitto al valore di mercato equo che potrebbe essere stato realizzato dalla Società  dopo la vendita del prodotto o dei prodotti acquistati senza il consenso della Società da parte dell'Acquirente / Rappresentante."
+  },
+  "Signature": "Firma",
+  "BuyerRepresentative": "L’Acquirente/Rappresentante",
+  "Company": "L’Azienda"
+}

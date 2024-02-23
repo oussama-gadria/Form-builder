@@ -1,0 +1,27 @@
+{
+  "languages": {
+    "en": "English",
+    "FR": "French",
+    "IT": "Italien",
+    "BG": "Bulgare",
+    "DE": "Allemand",
+    "ES": "Espagnol"
+  },
+  "actions": {
+    "activate": "Activate",
+    "cancel": "Cancel",
+    "deactivate": "Deactivate",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Bestätigen",
+    "doSignature": "Wiederholen Sie die Signatur"
+  },
+  "use": {
+    "commissionArgrement": "PROVISIONSVERTRAG",
+    "merchandiseTransfer": "VERTRAG ÜBER DIE WARENÜBERTRAGUNG",
+    "language": "language",
+    "required": "Dieses Feld ist erforderlich",
+    "goBack": "geh zurück",
+    "toastError": "Unbefugt! Seiten-Token ist abgelaufen"
+  }
+}

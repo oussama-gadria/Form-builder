@@ -1,0 +1,19 @@
+{
+  "SuccessDelete": "The Language has been successfully deleted",
+  "SuccessUpdate": "The Language has been successfully modified",
+  "SuccessAdd": "The Language was successfully added",
+  "LanguageManagement": "Languages management",
+  "AddLanguage": "Add language",
+  "Number": "Number",
+  "Name": "Name",
+  "Code": "Language code",
+  "NoLanguage": "No language is available",
+  "UpdateLanguage": "Edit language",
+  "Edit": "Edit",
+  "Add": "Add",
+  "Form": {
+    "Name": "Language name",
+    "Code": "Language code",
+    "Flag": "Language flag"
+  }
+}

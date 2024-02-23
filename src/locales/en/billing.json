@@ -1,0 +1,15 @@
+{
+  "CancelSubscription": "Cancel Subscription",
+  "CancelSubscriptionSuccess": "Your subscription has been successfully canceled",
+  "SubscriptionExpireAt": "Your subscription will expire on : ",
+  "SubscriptionCanceledAt": "You canceled your subscription on : ",
+  "ContinuedService": "You continue to benefit from our services until",
+  "AutoRenewal": "Your subscription will be automatically renewed.",
+  "DownloadBill": "Download Last bill",
+  "paymentMethod": "Payment Method",
+  "expireAt": "expires on",
+  "BillInformation": "Billing Information",
+  "Name": "Name : ",
+  "Email": "Email : ",
+  "BillingHistory": "Billing History"
+}

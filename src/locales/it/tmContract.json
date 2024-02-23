@@ -1,0 +1,50 @@
+{
+  "transferContract": "CONTRATTO DI TRASFERIMENTO DI BENI",
+  "Number": "NUMERO",
+  "Date": "DATA DI FIRMA DEL CONTRATTO:",
+  "ownerCompany": {
+    "title": "I. AZIENDA PAGANTE E PROPRIETARIA DEL BENE (O DEI BENI):",
+    "company": "Azur Aliance JSC, registrata con il numero 206565325, con sede legale nella città di Burgas, Bulgaria, numero di partita IVA BG2065325.",
+    "RepresentedBy": "Rappresentata da",
+    "Telephone": "Numero di cellulare",
+    "Email": "E-mail",
+    "Name": "Rappresentante locale di Azur Aliance",
+    "ownerCompany": "SOCIETÀ PROPRIETARIA DEL BENE (O DEI BENI):"
+  },
+  "agentRepresentative": {
+    "title": "II. ACQUIRENTE",
+    "Name": "Nome:",
+    "LastName": "Cognome :",
+    "Adresse": "Indirizzo :",
+    "Signature": "Firma :"
+  },
+  "product": {
+    "title": "III. DESCRIZIONE DEL PRODOTTO, OGGETTO DELLA TRASMISSIONE",
+    "Designation": "1. Designazione :",
+    "Manufacturer": "2. Produttore :"
+  },
+  "Payment": {
+    "title": "IV. PREZZO PAGATO E REGOLE DI COMMISSIONE",
+    "productPriceInTheStore": "1. Il prezzo del prodotto pagato in negozio, descritto al punto III, è di",
+    "commission": "2. La commissione pagata all'acquirente per la cessione è di",
+    "priceDescribed": "3. Il prezzo descritto comprende la consegna e l'accettazione della merce senza costi aggiuntivi."
+  },
+  "delivery": {
+    "title": "V. CONSEGNA, ISPEZIONE, RECLAMI",
+    "clause1": "1. La merce deve essere consegnata o spedita al seguente indirizzo : Azur-Aliance JSC",
+    "clause2": "2. Se la merce viene ricevuta a distanza, l'acquirente deve ispezionarla subito dopo  averla ricevuta e informare il/la manager in caso di problemi.",
+    "clause3": "3. Quando la merce viene accettata, viene firmato un protocollo di accettazione."
+  },
+  "disputes": {
+    "title": "VI. CONTENZIOSO E RESPONSABILITÀ",
+    "clause1": "1. Il presente contratto, la sua esecuzione, mancata esecuzione, validità e risoluzione  sono soggetti alle disposizioni del diritto civile della Bulgaria.",
+    "clause2": "2. Qualsiasi controversia relativa al presente contratto, alla sua esecuzione, alla sua mancata esecuzione, alla sua validità ed alla sua risoluzione dovrà essere portata in tribunale."
+  },
+  "communication": {
+    "title": "VII. COMUNICAZIONE E NOTIFICHE",
+    "clause": "Ogni e-mail, inviata dall'indirizzo di posta elettronica indicato nel presente contratto, sarà considerata una  notifica debitamente inviata e ricevuta, indipendentemente dal fatto che il destinatario l'abbia aperta o meno."
+  },
+  "Signature": "Firma :",
+  "BuyerRepresentative": "COMPRATORE",
+  "Company": "SOCIETÀ PROPRIETARIA DEL (DEI) BENE (BENI)"
+}
