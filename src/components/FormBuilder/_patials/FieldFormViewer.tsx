@@ -233,6 +233,7 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
             name={input.inputName}
             type={input.inputType}
             defaultValue={currentInputValue}
+            options={input.options}
           />
         )}
         <Stack direction={'row'} justifyContent={'flex-end'}>

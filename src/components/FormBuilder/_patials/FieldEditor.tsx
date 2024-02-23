@@ -47,10 +47,17 @@ export const FieldEditor = () => {
     const newDefaultInput = {
       inputName: values.name,
       inputType: values.type,
+      label: values.label,
+      display: values.display,
+      principalImage:values.principalImage,
+      helper:values.helper,
+      inputOrder:values.inputOrder,
+      options:values.options,
       inputValue: null,
       ...values,
     };
     addNewField(newDefaultInput);
+    console.log("Nchlh takhdem : ", inputs);
     form.reset();
   };
 
