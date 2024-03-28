@@ -1,4 +1,4 @@
-import { Stack } from '@chakra-ui/react';
+import { Button, Stack } from '@chakra-ui/react';
 import { Formiz, useForm } from '@formiz/core';
 
 import { useFormBuilderContext } from '../FormBuilderContext';
@@ -14,6 +14,14 @@ export const FieldViewer = () => {
         {inputs.map((input) => (
           <FieldFormViewer key={input.id} input={input} />
         ))}
+        <Button
+          onClick={()=>console.log('-------',inputs)}
+          colorScheme="whatsapp"
+          size={'xs'}
+          px={'4'}
+        >
+          Save
+        </Button>
       </Formiz>
     </Stack>
   );

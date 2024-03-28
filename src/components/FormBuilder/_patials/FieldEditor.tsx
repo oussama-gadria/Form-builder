@@ -1,10 +1,8 @@
 import { Button, Flex, Stack } from '@chakra-ui/react';
-import { faker } from '@faker-js/faker';
 import { Formiz, useForm } from '@formiz/core';
 import { useTranslation } from 'react-i18next';
 
 import { FieldBooleanCheckbox } from '@/components/FieldBooleanCheckbox';
-import { FieldHidden } from '@/components/FieldHidden';
 import { FieldInput } from '@/components/FieldInput';
 import { FieldSelect } from '@/components/FieldSelect';
 
@@ -13,6 +11,7 @@ import { FieldSelector } from '../fieldSelector';
 import { FieldPropsSelector } from './FieldPropsSelector';
 
 export const FieldEditor = () => {
+  let lastId = parseInt(localStorage.getItem('lastId') || '0', 10);
   const { inputs, updateInputs } = useFormBuilderContext();
   const { t } = useTranslation(['formBuilder']);
   const form = useForm();
@@ -44,7 +43,10 @@ export const FieldEditor = () => {
   };
 
   const submitCreateDefaultInput = async (values: TODO) => {
+    lastId++;
+    localStorage.setItem('lastId', lastId.toString());
     const newDefaultInput = {
+      id: lastId,
       inputName: values.name,
       inputType: values.type,
       label: values.label,
@@ -57,7 +59,6 @@ export const FieldEditor = () => {
       ...values,
     };
     addNewField(newDefaultInput);
-    console.log("Nchlh takhdem : ", inputs);
     form.reset();
   };
 

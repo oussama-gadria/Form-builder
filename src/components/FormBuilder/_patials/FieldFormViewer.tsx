@@ -26,7 +26,7 @@ import { Icon } from '@/components/Icons';
 import { useFormBuilderContext } from '../FormBuilderContext';
 import FieldInputForm from '../FormForEachField/FieldInputForm';
 import { FieldSelector } from '../fieldSelector';
-import { InputType, fieldType } from '../formBuilder.type';
+import { fieldType } from '../formBuilder.type';
 import FieldOptionsForm from '../FormForEachField/FieldOptionsForm';
 
 interface FieldFormViewerProps {
@@ -43,12 +43,10 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
   const leftValue = !input.principalImage
     ? { base: '55%', sm: '55%', md: '55%', lg: '67%', xl: '73%' }
     : '85%';
-  const [currentInputValue, setCurrentInputValue] = useState(input.inputValue);
   const { t } = useTranslation(['formBuilder']);
 
   const handleInputChange = (e: TODO) => {
-    setCurrentInputValue(e);
-    setIsValueChange(true);
+    updateInput(input.id, { inputValue: e });
   };
 
   const updateInput = (id: string, updatedProperties: Partial<fieldType>) => {
@@ -57,11 +55,6 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
         input.id === id ? { ...input, ...updatedProperties } : input
       )
     );
-  };
-
-  const saveFieldValue = async () => {
-    updateInput(input.id, { inputValue: currentInputValue });
-    setIsValueChange(false);
   };
 
   const handleDisplayStatus = () => {
@@ -135,7 +128,6 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
         <FieldInputForm
           isOpenInputForm={isOpenInputForm}
           id={input.id}
-          //  isUpdatedInput={isUpdateInputLoading}
           updateInput={updateInput}
           setIsOpenInputForm={setIsOpenInputForm}
         />
@@ -170,7 +162,6 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
               colorScheme="error"
               size={'xs'}
               mx={2}
-            //  isLoading={isDeleteInputLoading}
             >
               Click to confirm delete
             </Button>
@@ -213,6 +204,7 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
             size="2"
           />
         )}
+
         <IconButton
           aria-label="display"
           icon={
@@ -232,31 +224,9 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
             onChange={handleInputChange}
             name={input.inputName}
             type={input.inputType}
-            defaultValue={currentInputValue}
             options={input.options}
           />
         )}
-        <Stack direction={'row'} justifyContent={'flex-end'}>
-          {isValueChange && (
-            <Button
-              onClick={() => setIsValueChange(false)}
-              colorScheme="blackAlpha"
-              size={'xs'}
-            >
-              {t('formBuilder:Cancel')}
-            </Button>
-          )}
-          {isValueChange && (
-            <Button
-              onClick={() => saveFieldValue()}
-              colorScheme="whatsapp"
-              size={'xs'}
-              px={'4'}
-            >
-              {t('formBuilder:Save')}
-            </Button>
-          )}
-        </Stack>
       </Box>
     </>
 
