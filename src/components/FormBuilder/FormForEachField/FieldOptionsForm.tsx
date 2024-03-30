@@ -31,7 +31,6 @@ import { FiEdit, FiTrash2 } from 'react-icons/fi';
 import { FieldInput } from '@/components/FieldInput';
 import { Icon } from '@/components/Icons';
 
-import { useFormBuilderContext } from '../FormBuilderContext';
 import { fieldType } from '../formBuilder.type';
 
 interface fieldOptionsFormProps {
@@ -39,30 +38,21 @@ interface fieldOptionsFormProps {
   updateInput: TODO;
   id: string;
   isOpenOptionsForm: boolean;
+  detailsInput?: fieldType;
 }
 
 const FieldOptionsForm: FC<fieldOptionsFormProps> = ({
   isOpenOptionsForm,
   id,
+  detailsInput,
   setIsOpenOptions,
   updateInput,
 }) => {
   const { t } = useTranslation(['common', 'formBuilder']);
   const { onClose } = useDisclosure();
   const formOptions = useForm();
-  const { inputs } = useFormBuilderContext();
   const formEditOption = useForm();
   const form = useForm();
-  const [detailsInput, setInputDetails] = useState<fieldType>();
-
-  const getDetails = (id: string) => {
-    return inputs.find((input) => input.id === id);
-  };
-
-  useEffect(() => {
-    const details = getDetails(id);
-    setInputDetails(details);
-  }, [id]);
 
   const [options, setOptions] = useState<{ labal: string; value: string }[]>(
     detailsInput?.options || []

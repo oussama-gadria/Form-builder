@@ -37,8 +37,8 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
   const { inputs, updateInputs } = useFormBuilderContext();
   const RenderInput: React.ElementType =
     FieldSelector[input.inputType as keyof typeof FieldSelector];
-  const [isValueChange, setIsValueChange] = useState(false);
   const [isOpenInputForm, setIsOpenInputForm] = useState(false);
+  const [detailsInput, setInputDetails] = useState<fieldType>();
   const [isOpenOptionsForm, setIsOpenOptions] = useState(false);
   const leftValue = !input.principalImage
     ? { base: '55%', sm: '55%', md: '55%', lg: '67%', xl: '73%' }
@@ -115,6 +115,10 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
   };
 
   const handleEditForm = () => {
+    const getDetails = (id: string) => {
+      return inputs.find((input) => input.id === id);
+    };
+    setInputDetails(getDetails(input.id));
     input.inputType == 'FieldRadios' ||
       input.inputType == 'FieldSelect' ||
       input.inputType == 'FieldCheckboxes'
@@ -128,6 +132,7 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
         <FieldInputForm
           isOpenInputForm={isOpenInputForm}
           id={input.id}
+          detailsInput={detailsInput}
           updateInput={updateInput}
           setIsOpenInputForm={setIsOpenInputForm}
         />
@@ -136,6 +141,7 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
         <FieldOptionsForm
           isOpenOptionsForm={isOpenOptionsForm}
           id={input.id}
+          detailsInput={detailsInput}
           //  isUpdatedInputLoading={isUpdateInputLoading}
           updateInput={updateInput}
           setIsOpenOptions={setIsOpenOptions}
@@ -220,13 +226,15 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
 
         {!!RenderInput && (
           <RenderInput
-            onClick={() => setIsValueChange(true)}
             onChange={handleInputChange}
             name={input.inputName}
             type={input.inputType}
+            label={input.label}
             options={input.options}
+            helper={input.helper}
           />
         )}
+
       </Box>
     </>
 

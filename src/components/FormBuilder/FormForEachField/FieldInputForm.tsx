@@ -16,7 +16,6 @@ import { useTranslation } from 'react-i18next';
 
 import { FieldInput } from '@/components/FieldInput';
 
-import { useFormBuilderContext } from '../FormBuilderContext';
 import { fieldType } from '../formBuilder.type';
 
 interface fieldInputFormProps {
@@ -24,31 +23,22 @@ interface fieldInputFormProps {
   updateInput: TODO;
   id: string;
   isOpenInputForm: boolean;
+  detailsInput?: fieldType
 }
 
-const FieldInputForm: FC<fieldInputFormProps> = ({
+const FieldInputForm : FC<fieldInputFormProps> = ({
   isOpenInputForm,
   id,
   setIsOpenInputForm,
   updateInput,
+  detailsInput
 }) => {
   const { t } = useTranslation(['common', 'formBuilder']);
   const { onClose } = useDisclosure();
-  const { inputs } = useFormBuilderContext();
   const form = useForm();
 
-  const [detailsInput, setInputDetails] = useState<fieldType>();
-
-  const getDetails = (id: string) => {
-    return inputs.find((input) => input.id === id);
-  };
-
-  useEffect(() => {
-    const details = getDetails(id);
-    setInputDetails(details);
-  }, [id]);
-
   const submitCreateDefaultInput = (values: TODO) => {
+
     updateInput(id, values);
     setIsOpenInputForm(false);
   };
@@ -70,7 +60,7 @@ const FieldInputForm: FC<fieldInputFormProps> = ({
                     <FieldInput
                       mt={2}
                       size="sm"
-                      name="name"
+                      name="inputName"
                       label={t('common:Inputs.Name')}
                       placeholder={t('common:Inputs.PlaceHolder')}
                       required
