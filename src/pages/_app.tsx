@@ -58,7 +58,7 @@ const AppHead = () => {
 
   return (
     <Head>
-      <title>MecaFix</title>
+      <title>FormBuilder</title>
       <meta
         name="viewport"
         content="width=device-width,initial-scale=1,viewport-fit=cover"

@@ -35,14 +35,13 @@ interface FieldFormViewerProps {
 
 export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
   const { inputs, updateInputs } = useFormBuilderContext();
+
   const RenderInput: React.ElementType =
     FieldSelector[input.inputType as keyof typeof FieldSelector];
   const [isOpenInputForm, setIsOpenInputForm] = useState(false);
   const [detailsInput, setInputDetails] = useState<fieldType>();
   const [isOpenOptionsForm, setIsOpenOptions] = useState(false);
-  const leftValue = !input.principalImage
-    ? { base: '55%', sm: '55%', md: '55%', lg: '67%', xl: '73%' }
-    : '85%';
+
   const { t } = useTranslation(['formBuilder']);
 
   const handleInputChange = (e: TODO) => {
@@ -66,9 +65,9 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
     );
   };
 
-  const incrementOrder = (inputId: string) => {
+  const incrementOrder = (inputId: fieldType) => {
     const newInputs = [...inputs];
-    const currentIndex = newInputs.findIndex((input) => input.id === inputId);
+    const currentIndex = newInputs.findIndex((input) => input.id === inputId?.id);
 
     if (currentIndex === -1 || currentIndex >= newInputs.length - 1) {
       return;
@@ -87,9 +86,9 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
     updateInputs(newInputs);
   };
 
-  const decrementOrder = (inputId: string) => {
+  const decrementOrder = (inputId: fieldType) => {
     const newInputs = [...inputs];
-    const currentIndex = newInputs.findIndex((input) => input.id === inputId);
+    const currentIndex = newInputs.findIndex((input) => input.id === inputId?.id);
 
     if (currentIndex <= 0 || currentIndex === -1) {
       return;
@@ -185,31 +184,31 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
           size="2"
         />
 
-        {!input.principalImage && (
+        {/* {!input.principalImage && (
           <IconButton
             aria-label="orderDown"
             icon={<Icon icon={FiArrowUp} />}
             position="absolute"
-            onClick={() => decrementOrder(input.id)}
+            onClick={() => decrementOrder(input)}
             top="0"
             left={{ base: '65%', sm: '65%', md: '65%', lg: '79%', xl: '79%' }}
             zIndex={99}
             size="2"
           />
-        )}
+        )} */}
 
-        {!input.principalImage && (
+        {/* {!input.principalImage && (
           <IconButton
             aria-label="orderDown"
             icon={<Icon icon={FiArrowDown} />}
             position="absolute"
-            onClick={() => incrementOrder(input.id)}
+            onClick={() => incrementOrder(input)}
             top="0"
             left={{ base: '75%', sm: '75%', md: '75%', lg: '85%', xl: '85%' }}
             zIndex={99}
             size="2"
           />
-        )}
+        )} */}
 
         <IconButton
           aria-label="display"
@@ -219,7 +218,7 @@ export const FieldFormViewer: FC<FieldFormViewerProps> = ({ input }) => {
           position="absolute"
           onClick={handleDisplayStatus}
           top="0"
-          left={leftValue}
+          left={"85%"}
           zIndex={99}
           size="2"
         />

@@ -43,6 +43,9 @@ export const FieldEditor = () => {
   };
 
   const submitCreateDefaultInput = async (values: TODO) => {
+    const maxInputOrder = inputs.reduce((maxOrder, input) => {
+      return input.inputOrder > maxOrder ? input.inputOrder : maxOrder;
+    }, 0);
     lastId++;
     localStorage.setItem('lastId', lastId.toString());
     const newDefaultInput = {
@@ -51,10 +54,10 @@ export const FieldEditor = () => {
       inputType: values.type,
       label: values.label,
       display: values.display,
-      principalImage:values.principalImage,
-      helper:values.helper,
-      inputOrder:values.inputOrder,
-      options:values.options,
+      principalImage: values.principalImage,
+      helper: values.helper,
+      inputOrder: maxInputOrder + 1,
+      options: values.options,
       inputValue: null,
       ...values,
     };
@@ -73,7 +76,7 @@ export const FieldEditor = () => {
       <Formiz connect={form} onValidSubmit={submitCreateDefaultInput}>
         <form noValidate onSubmit={form.submit} >
           <Stack spacing="2" alignItems="flex-start">
-          <FieldSelect
+            <FieldSelect
               label={t('formBuilder:Components')}
               selectProps={{ size: 'sm' }}
               name="type"
