@@ -1,6 +1,6 @@
 import React,{ useState } from 'react';
 
-import { Button, Heading, Stack } from '@chakra-ui/react';
+import { Button, Heading, Stack, Text } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 
 import { FormBuilderProvider } from './FormBuilderContext';
@@ -22,7 +22,7 @@ export const FormBuilder = () => {
         textAlign="center"
         mt={5}
       >
-        Personalize Your Own Form
+        Build Your Unique Form 
       </Heading>
        <Button
           color={'green'}
@@ -48,8 +48,12 @@ export const FormBuilder = () => {
         )}
         <Stack flex={!isDisplayFormEditor ? '12' : '8'}>
           <FieldViewer />
+          
         </Stack>
       </Stack>
+      <Text color="gray.500" fontSize="md" textAlign="center" my='4px' >
+            Build with ❤ by Oussama Gadria
+          </Text>
     </FormBuilderProvider>
   );
 };

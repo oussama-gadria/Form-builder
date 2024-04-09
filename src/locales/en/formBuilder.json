@@ -2,7 +2,7 @@
   "EditTheForm":"Edit the form",
   "HelperMessage":"Small text will show under the field exactly like this text.",
   "Add":"Add",
-  "Display":"Afficher au client",
+  "Display":"Show to customer",
   "principalImage":"Image principal",
   "Helper":"Message assistant",
   "Label":"Label",
@@ -23,5 +23,6 @@
   "Cancel":"Cancel",
   "incrementErrorMessage":"This is the final input and cannot be decreased.",
   "decrementErrorMessage":"This is the initial input and cannot be increased.",
-  "optionErrorMessage":"The entered option already exists. Please choose a different one."
+  "optionErrorMessage":"The entered option already exists. Please choose a different one.",
+  "selectorErrorMessage": "Please enter at least one option."
 }

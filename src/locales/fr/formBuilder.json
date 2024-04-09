@@ -23,5 +23,6 @@
   "Cancel":"Annuler",
   "incrementErrorMessage":"Ceci est la section finale et ne peut pas être diminuée.",
   "decrementErrorMessage":"Ceci est la section initiale et ne peut pas être augmentée.",
-  "optionErrorMessage":"L'option saisie existe déjà. Veuillez en choisir une autre."
+  "optionErrorMessage":"L'option saisie existe déjà. Veuillez en choisir une autre.",
+  "selectorErrorMessage": "Veuillez saisir au moins une option."
 }

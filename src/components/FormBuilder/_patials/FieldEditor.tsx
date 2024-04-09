@@ -9,10 +9,12 @@ import { FieldSelect } from '@/components/FieldSelect';
 import { useFormBuilderContext } from '../FormBuilderContext';
 import { FieldSelector } from '../fieldSelector';
 import { FieldPropsSelector } from './FieldPropsSelector';
+import { useState } from 'react';
 
 export const FieldEditor = () => {
   let lastId = parseInt(localStorage.getItem('lastId') || '0', 10);
   const { inputs, updateInputs } = useFormBuilderContext();
+  const [invalidForm, setInvalidForm] = useState(false);
   const { t } = useTranslation(['formBuilder']);
   const form = useForm();
 
@@ -31,7 +33,9 @@ export const FieldEditor = () => {
     FieldVideo: { label: t('formBuilder:Video'), icon: 'icon-editor' },
   };
 
-  const { values: { type } } = form;
+  const {
+    values: { type, options },
+  } = form;
 
   const componentOptions = Object.keys(FieldSelector).map((key) => ({
     label: fieldMappings[key]?.label,
@@ -43,26 +47,49 @@ export const FieldEditor = () => {
   };
 
   const submitCreateDefaultInput = async (values: TODO) => {
-    const maxInputOrder = inputs.reduce((maxOrder, input) => {
-      return input.inputOrder > maxOrder ? input.inputOrder : maxOrder;
-    }, 0);
-    lastId++;
-    localStorage.setItem('lastId', lastId.toString());
-    const newDefaultInput = {
-      id: lastId,
-      inputName: values.name,
-      inputType: values.type,
-      label: values.label,
-      display: values.display,
-      principalImage: values.principalImage,
-      helper: values.helper,
-      inputOrder: maxInputOrder + 1,
-      options: values.options,
-      inputValue: null,
-      ...values,
-    };
-    addNewField(newDefaultInput);
-    form.reset();
+    if(isOptionsValid()){
+      const maxInputOrder = inputs.reduce((maxOrder, input) => {
+        return input.inputOrder > maxOrder ? input.inputOrder : maxOrder;
+      }, 0);
+      lastId++;
+      localStorage.setItem('lastId', lastId.toString());
+      const newDefaultInput = {
+        id: lastId,
+        inputName: values.name,
+        inputType: values.type,
+        label: values.label,
+        display: values.display,
+        principalImage: values.principalImage,
+        helper: values.helper,
+        inputOrder: maxInputOrder + 1,
+        options: values.options,
+        inputValue: null,
+        ...values,
+      };
+      addNewField(newDefaultInput);
+      setInvalidForm(false);
+      form.reset();
+    }else{
+      setInvalidForm(true);
+    }
+
+  };
+
+  const isOptionsValid = () => {
+    return (
+      ((type == 'FieldSelect' ||
+        type == 'FieldRadios' ||
+        type == 'FieldCheckboxes') &&
+        options &&
+        options.length > 0) ||
+      ((type == 'FieldInput' ||
+        type == 'FieldVideo' ||
+        type == 'FieldEditor' ||
+        type == 'FieldDayPicker' ||
+        type == 'FieldTextarea' ||
+        type == 'FieldImage64bit') &&
+        !options)
+    );
   };
 
   return (
@@ -101,13 +128,6 @@ export const FieldEditor = () => {
               label={t('formBuilder:Display')}
               helper={t('formBuilder:HelperDisplay')}
             />
-            {(type == 'FieldImage64bit' || type == 'FieldVideo') && (
-              <FieldBooleanCheckbox
-                name="principalImage"
-                label={t('formBuilder:Image')}
-                helper={t('formBuilder:HelperImage')}
-              />
-            )}
             <FieldInput
               size="sm"
               name="helper"
@@ -115,6 +135,11 @@ export const FieldEditor = () => {
               helper={t('formBuilder:HelperMessage')}
             />
             {!!type && <FieldPropsSelector type={type} />}
+            {invalidForm && !isOptionsValid() && (
+              <span style={{ color: 'red' }}>
+                {t('formBuilder:selectorErrorMessage')}
+              </span>
+            )}
             <Button type="submit" variant="@primary">
               {t('formBuilder:Add')}
             </Button>

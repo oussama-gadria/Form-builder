@@ -100,7 +100,7 @@ const FieldOptionsForm: FC<fieldOptionsFormProps> = ({
                   <FieldInput
                     mt={2}
                     size="sm"
-                    name="name"
+                    name="inputName"
                     label={t('common:Inputs.Name')}
                     placeholder={t('common:Inputs.PlaceHolder')}
                     required

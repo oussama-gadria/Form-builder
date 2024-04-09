@@ -43,6 +43,7 @@ const FieldInputForm : FC<fieldInputFormProps> = ({
     setIsOpenInputForm(false);
   };
 
+
   return (
     <>
       {isOpenInputForm && (
