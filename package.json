@@ -14,7 +14,7 @@
     "test": "cypress open",
     "test:ci": "cypress run --component",
     "dev": "yarn next dev",
-    "build": "yarn build:info  && next build",
+    "build": "yarn build:info && yarn docs:build  && next build",
     "build:info": "node .build-info.generate.js",
     "start": "next start",
     "pretty": "prettier -w .",
@@ -23,7 +23,8 @@
     "static:build": "yarn build && next export",
     "static:serve": "yarn static:build && npx serve out -c ../static.serve.json",
     "theme:generate-typing": "chakra-cli tokens ./src/theme/theme.ts",
-    "theme:generate-icons": "svgr --config-file src/components/Icons/svgr.config.js src/components/Icons/svg-sources"
+    "theme:generate-icons": "svgr --config-file src/components/Icons/svgr.config.js src/components/Icons/svg-sources",
+    "docs:build": "swagger-cli bundle src/mocks/openapi/openapi.yaml -t json --outfile public/open-api.json"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx,json}": "prettier --write",
