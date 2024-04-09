@@ -6,7 +6,6 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 
 import { useToastError, useToastSuccess } from '@/components/Toast';
-import { Page, PageContent, PageTopBar } from '@/spa/layout';
 
 import { useLanguage, useLanguageUpdate } from './Language.service';
 import { LanguageForm } from './LanguageForm';
@@ -51,42 +50,8 @@ export const PageLanguageUpdate = () => {
   };
 
   return (
-    <Page containerSize="md">
-      {!languageDetailsLoading && (
-        <Formiz
-          id="create-user-form"
-          onValidSubmit={submitUpdateLanguage}
-          connect={form}
-          initialValues={language}
-        >
-          <form noValidate onSubmit={form.submit}>
-            <PageTopBar showBack onBack={() => navigate(-1)}>
-              <Heading size="md">{t('language:UpdateLanguage')}</Heading>
-            </PageTopBar>
-            <PageContent>
-              <LanguageForm />
-              <ButtonGroup
-                mt={4}
-                p={4}
-                bg={'white'}
-                _dark={{ bg: 'blackAlpha.400' }}
-                justifyContent="space-between"
-              >
-                <Button onClick={() => navigate(-1)}>
-                  {t('common:actions.cancel')}
-                </Button>
-                <Button
-                  type="submit"
-                  variant="@primary"
-                  isLoading={updateLanguageLoading}
-                >
-                  {t('language:Edit')}
-                </Button>
-              </ButtonGroup>
-            </PageContent>
-          </form>
-        </Formiz>
-      )}
-    </Page>
+    <>
+     
+    </>
   );
 };

@@ -39,8 +39,6 @@ import {
 } from '@/components/Pagination';
 import { ResponsiveIconButton } from '@/components/ResponsiveIconButton';
 import { useToastError, useToastSuccess } from '@/components/Toast';
-
-import { Page, PageContent, PageTopBar } from '../layout';
 import { useLanguageList, useLanguageRemove } from './Language.service';
 import { Language } from './Language.type';
 
@@ -113,93 +111,7 @@ export const PageLanguageList = () => {
   const { t } = useTranslation(['language']);
 
   return (
-    <Page containerSize="xl">
-      <PageContent>
-        <PageTopBar mb="4" w="full" showBack onBack={() => navigate(-1)}>
-          <HStack justifyContent="space-between" zIndex="99">
-            <Heading size="md">{t('language:LanguageManagement')}</Heading>
-          </HStack>
-        </PageTopBar>
-        <HStack mb="4" justifyContent={'flex-end'}>
-          <ResponsiveIconButton
-            icon={<FiPlus />}
-            as={Link}
-            to={'/admin/settings/language/create'}
-          >
-            {t('language:AddLanguage') as string}
-          </ResponsiveIconButton>
-        </HStack>
-        {isLanguageLoading && (
-          <Center>
-            <Spinner size="xl" color="blue" />
-          </Center>
-        )}
-        {!isLanguageLoading && (
-          <DataList overflowY="scroll" flexWrap="wrap">
-            <DataListHeader>
-              <DataListCell colName="number">
-                {t('language:Number')}
-              </DataListCell>
-              <DataListCell colName="name">{t('language:Name')}</DataListCell>
-              <DataListCell mr={2} colName="codeLangue">
-                {t('language:Code')}
-              </DataListCell>
-              <DataListCell
-                colName="actions"
-                colWidth="4rem"
-                align="flex-end"
-              />
-            </DataListHeader>
-            {LanguageList?.data.length === 0 && (
-              <DataListRow bg={'white'} _dark={{ bg: 'blackAlpha.400' }}>
-                <DataListCell
-                  alignItems={'stretch'}
-                  textAlign={'center'}
-                  width={'100%'}
-                  colName="noData"
-                >
-                  {t('language:NoLanguage')}
-                </DataListCell>
-              </DataListRow>
-            )}
-            {LanguageList?.data.length !== 0 &&
-              LanguageList?.data.map((language) => (
-                <DataListRow as={LinkBox} key={language.id}>
-                  <DataListCell colName="number">
-                    <LinkOverlay
-                      as={Link}
-                      to={`/admin/settings/language/update/${language.id}`}
-                    >
-                      {language.id}
-                    </LinkOverlay>
-                  </DataListCell>
-                  <DataListCell colName="name">{language.name}</DataListCell>
-                  <DataListCell colName="codeLangue">
-                    {language.code}
-                  </DataListCell>
-                  <DataListCell colName="actions">
-                    <LanguageActions lang={language} />
-                  </DataListCell>
-                </DataListRow>
-              ))}
-            <DataListFooter>
-              <Pagination
-                isLoadingPage={isLanguageLoading}
-                setPage={setPage}
-                page={LanguageList?.current_page}
-                pageSize={LanguageList?.per_page}
-                totalItems={LanguageList?.total}
-              >
-                <PaginationButtonFirstPage />
-                <PaginationButtonPrevPage />
-                <PaginationInfo flex="1" />
-                <PaginationButtonNextPage />
-                <PaginationButtonLastPage />
-              </Pagination>
-            </DataListFooter>
-          </DataList>
-        )}
-      </PageContent>
-    </Page>
+    <>
+    </>
   );
 };
